@@ -1,0 +1,3690 @@
+HIP	Cst	Bayer
+443	Psc	     
+476	Peg	     
+531	Cas	     
+635	Cet	     
+664	Cet	     
+677	And	alf  
+746	Cas	bet  
+729	Peg	     
+761	Scl	kap01
+765	Phe	eps  
+813	Psc	     
+841	And	     
+814	Oct	gam03
+910	Cet	     
+930	Scl	kap02
+950	Scl	the  
+1067	Peg	gam  
+1086	And	     
+1168	Peg	chi  
+1170	Cet	     
+1196	Psc	     
+1319	Psc	     
+1366	And	the  
+1392	Psc	     
+1415	Cas	AO   
+1473	And	sig  
+1501	And	     
+1562	Cet	iot  
+1595	Psc	     
+1599	Tuc	zet  
+1645	Psc	d    
+1686	And	rho  
+1647	Tuc	pi.  
+1708	Scl	iot  
+1728	Cet	T    
+1772	Psc	     
+1803	Cet	     
+      	And	R    
+1960	Cas	     
+1902	Tuc	ksi  
+2006	Psc	     
+2025	Psc	     
+2021	Hyi	bet  
+2081	Phe	alf  
+2072	Phe	kap  
+2100	Cet	     
+2213	Psc	     
+2219	Psc	TV   
+2210	Scl	eta  
+2224	Psc	     
+2355	And	     
+2353	Cet	     
+2474	Cas	     
+2505	Cas	lam  
+2472	Phe	lam01
+2484	Tuc	bet01
+2487	Tuc	bet02
+2599	Cas	kap  
+2568	Psc	     
+2548	Psc	     
+2578	Tuc	bet03
+2707	Cas	     
+2629	Tuc	the  
+2762	Cet	     
+2787	Cet	     
+2802	Phe	lam02
+2920	Cas	zet  
+2912	And	pi.  
+2903	Psc	     
+2994	Cet	     
+3031	And	eps  
+3092	And	del  
+3093	Psc	     
+3138	Psc	     
+3179	Cas	alf  
+3231	And	     
+3300	Cas	ksi  
+3245	Phe	mu.  
+3277	Phe	ksi  
+3414	Cas	pi.  
+3356	Scl	lam01
+3330	Tuc	rho  
+3419	Cet	bet  
+3478	Cas	     
+3405	Phe	eta  
+3572	Cas	YZ   
+3504	Cas	omi  
+3455	Cet	phi01
+3456	Scl	lam02
+3559	Cet	     
+3721	Cas	     
+3632	Psc	     
+3675	Psc	     
+3685	Psc	     
+3693	And	zet  
+3697	Psc	     
+3730	Psc	     
+3821	Cas	eta  
+3760	Psc	     
+3801	Cas	nu.  
+3786	Psc	del  
+3810	Psc	     
+3881	And	nu.  
+3885	Psc	i    
+      	Psc	i    
+3909	Cet	phi02
+3781	Hyi	lam  
+3949	Phe	rho  
+4147	Cet	     
+4084	Tuc	lam01
+4292	Cas	ups01
+4267	Psc	     
+4257	Cet	     
+4288	And	     
+4366	Psc	k    
+4427	Cas	gam  
+4422	Cas	ups02
+4371	Cet	phi03
+4436	And	mu.  
+4293	Tuc	lam02
+4463	And	eta  
+4510	Psc	h    
+4843	Cep	ups  
+4587	Cet	phi04
+4577	Scl	alf  
+5372	UMi	     
+4770	Scl	ksi  
+4903	And	     
+4889	Psc	sig  
+4852	Scl	sig  
+4906	Psc	eps  
+4829	Phe	ome  
+4914	Cet	     
+4979	Cet	     
+5074	Psc	     
+5081	Psc	     
+5131	Psc	psi01
+5132	Psc	psi01
+5175	Psc	     
+5141	Psc	     
+5144	Psc	     
+5121	Cet	     
+5164	Cet	     
+5204	Psc	     
+5336	Cas	mu.  
+5165	Phe	bet  
+5317	And	     
+5319	Psc	     
+5310	Psc	psi02
+5296	Cet	     
+5315	Cet	     
+5346	Psc	e    
+5300	Phe	ups  
+5268	Tuc	iot  
+5364	Cet	eta  
+5434	And	phi  
+5518	Cas	     
+5447	And	bet  
+5348	Phe	zet  
+5454	Psc	psi03
+5493	And	     
+5542	Cas	the  
+5589	Cas	     
+5485	Cet	     
+5510	Cet	     
+5550	And	     
+5544	Psc	g    
+5571	Psc	chi  
+5586	Psc	tau  
+5594	Cet	     
+5646	Cet	     
+5742	Psc	phi  
+5737	Psc	zet  
+5743	Psc	zet  
+5778	Psc	     
+5799	Cet	     
+5824	Psc	     
+5833	Cet	     
+5862	Phe	nu
+5951	Cet	     
+5985	Cet	     
+      	Cas	S    
+5896	Tuc	kap  
+6061	Psc	f    
+6242	Cas	phi  
+6193	Psc	ups  
+6312	Cas	     
+6226	Cet	     
+6315	Psc	l    
+6411	And	ksi  
+6429	Cet	     
+6514	And	     
+6692	Cas	psi  
+6539	Cet	     
+6537	Cet	the  
+6686	Cas	del  
+6670	Cet	     
+6706	Psc	rho  
+6732	Psc	     
+6813	And	ome  
+6748	Cet	     
+6815	Psc	     
+6759	Scl	R    
+11767	UMi	alf  
+7078	Cas	     
+6867	Phe	gam  
+6999	And	A    
+6981	Psc	     
+6960	Cet	     
+7007	Psc	mu.  
+7097	Psc	eta  
+7083	Phe	del  
+7294	Cas	chi  
+7364	Psc	     
+7345	Cet	     
+7436	Psc	     
+7650	Cas	     
+7513	And	ups  
+7450	Cet	     
+7463	Scl	tau  
+7535	Psc	pi.  
+7607	And	     
+7719	And	chi  
+7710	Psc	     
+7588	Eri	alf  
+7740	Psc	     
+7818	And	tau  
+7965	Cas	     
+8016	Cas	     
+7751	Eri	p    
+      	Eri	p    
+7884	Psc	nu.  
+8046	Cas	     
+7981	Psc	     
+8068	Per	phi  
+7955	Scl	pi.  
+7978	Eri	q01  
+8159	Psc	     
+8102	Cet	tau  
+8198	Psc	omi  
+8209	Scl	eps  
+8271	Ari	     
+7879	Hyi	tau01
+8240	Phe	     
+8241	Eri	q02  
+8387	Ari	     
+8544	Ari	     
+      	Ari	     
+8497	Cet	chi  
+8704	Per	     
+8588	Cet	     
+8714	Per	     
+8645	Cet	zet  
+8886	Cas	eps  
+8814	And	     
+8796	Tri	alf  
+8832	Ari	gam01
+      	Ari	gam02
+9009	Cas	ome  
+8833	Psc	ksi  
+8366	Hyi	tau02
+8903	Ari	bet  
+8837	Phe	psi  
+8751	Hyi	eta01
+9021	And	     
+8882	Phe	phi  
+8993	Ari	     
+9110	Ari	iot  
+9061	Cet	     
+9007	Eri	chi  
+9222	Per	     
+9153	Ari	lam  
+8928	Hyi	eta02
+9165	Cet	     
+9155	Cet	     
+9480	Cas	A    
+9383	Tri	chi  
+9598	Cas	     
+9727	Cas	     
+9353	Psc	     
+9326	Cet	     
+9347	Cet	ups  
+9564	Cas	     
+9573	Cas	     
+9505	Per	g    
+9236	Hyi	alf  
+9763	Cas	     
+8991	Hyi	sig  
+9440	For	pi.  
+9487	Psc	alf  
+      	Psc	alf  
+9570	Tri	eps  
+9459	Phe	chi  
+9640	And	gam01
+      	And	gam02
+9621	Ari	     
+9589	Cet	     
+9631	Cet	     
+9677	For	nu.  
+10031	Cas	     
+9836	Ari	kap  
+9859	Ari	     
+9884	Ari	alf  
+9977	And	     
+10064	Tri	bet  
+10053	Ari	     
+10227	Per	     
+10176	And	     
+10180	And	     
+10155	Ari	     
+10203	Ari	     
+10220	Tri	     
+10212	Cet	     
+10234	Cet	     
+10438	Cas	     
+10280	Tri	     
+10340	And	b    
+10366	Per	     
+10306	Ari	eta  
+10328	Ari	     
+10324	Cet	ksi01
+10305	Cet	     
+10320	For	mu.  
+10559	Tri	     
+10540	Ari	     
+10535	Ari	     
+10644	Tri	del  
+10718	Per	     
+10729	Per	chi  
+10670	Tri	gam  
+10642	Cet	     
+10418	Hyi	pi.01
+10732	Ari	the  
+10819	And	c    
+10602	Eri	phi  
+10793	Tri	     
+10513	Hyi	pi.02
+10826	Cet	omi  
+10944	And	     
+11060	Per	i    
+11021	Cet	     
+11046	Cet	     
+11220	And	     
+11072	For	kap  
+11279	Per	     
+11313	And	     
+11249	Ari	ksi  
+11261	Cet	     
+11001	Hyi	del  
+11569	Cas	iot  
+11345	Cet	rho  
+11465	And	     
+11432	Tri	     
+11427	Ari	     
+11258	Hor	lam  
+11095	Hyi	kap  
+11486	Tri	     
+11484	Cet	ksi02
+11548	Tri	     
+11407	Eri	kap  
+11477	For	phi  
+11678	Ari	     
+11698	Ari	     
+11784	Tri	     
+11791	Cet	     
+11783	Cet	sig  
+11843	Ari	     
+11867	For	lam01
+11918	For	ome  
+12086	Tri	     
+12002	Cet	     
+12048	Cet	     
+12093	Cet	nu.  
+12107	Cet	     
+12184	Ari	     
+12153	Ari	     
+12189	Ari	     
+12122	For	iot01
+12247	Cet	     
+12186	For	lam02
+12332	Ari	nu.  
+11757	Hyi	mu.  
+12288	For	iot02
+12225	Hor	eta  
+12387	Cet	del  
+12390	Cet	eps  
+12489	Ari	     
+12692	Per	     
+12623	Per	     
+12413	Eri	s    
+12530	Cet	     
+12640	Ari	mu.  
+12486	Eri	iot  
+12647	Cet	     
+12777	Per	the  
+12768	Per	     
+12719	Ari	     
+12484	Hor	zet  
+12706	Cet	gam  
+12394	Hyi	eps  
+12784	Ari	     
+12803	Ari	omi  
+12653	Hor	iot  
+12770	Cet	pi.  
+12832	Ari	     
+12828	Cet	mu.  
+13133	Cas	RZ   
+12843	Eri	tau01
+13061	Ari	     
+13108	Ari	     
+13367	Cas	SU   
+12871	Hor	gam  
+13268	Per	eta  
+13040	For	eta01
+13165	Ari	pi.  
+12876	Hyi	zet  
+13209	Ari	c    
+13254	Per	     
+13147	For	bet  
+13328	Per	     
+13197	For	gam01
+13202	For	gam02
+13327	Ari	sig  
+13225	For	eta02
+13288	Eri	tau02
+13265	For	eta03
+13141	Hor	nu.  
+13531	Per	tau  
+      	Per	tau  
+13490	Per	     
+13579	Ari	rho01
+13473	For	psi  
+13654	Ari	     
+13702	Ari	rho  
+13244	Hyi	nu.  
+13775	Per	     
+13701	Eri	eta  
+13834	Ari	     
+13879	Per	pi.  
+13905	Per	     
+13782	Eri	     
+13914	Ari	eps  
+      	Ari	eps  
+13835	Eri	     
+13954	Cet	lam  
+13847	Eri	the01
+      	Eri	the02
+13951	Eri	     
+13942	For	zet  
+14040	Eri	     
+14109	Ari	     
+14060	Eri	rho01
+14150	Ari	     
+13884	Hor	bet  
+14143	Cet	     
+14135	Cet	alf  
+14086	For	eps  
+14328	Per	gam  
+      	Per	gam  
+14168	Eri	rho02
+14382	Per	k    
+14146	Eri	tau03
+14354	Per	rho  
+14293	Eri	rho03
+14376	Ari	     
+      	Ari	     
+14240	Hor	mu.  
+14576	Per	bet  
+14632	Per	iot  
+14514	Ari	     
+14131	Hyi	the  
+14586	Ari	     
+14668	Per	kap  
+14677	Ari	     
+14817	Per	ome  
+14838	Ari	del  
+14893	Ari	     
+14915	Tau	g    
+14954	Cet	     
+14879	For	alf  
+15110	Ari	zet  
+15338	Per	     
+15197	Eri	zet  
+15404	Per	     
+15244	Eri	     
+15444	Per	     
+15383	Cet	     
+15382	Eri	     
+15514	Ari	     
+15457	Cet	kap  
+15557	Ari	     
+15648	Per	l    
+15474	Eri	tau04
+15627	Ari	tau  
+15330	Ret	zet01
+15619	Cet	     
+15510	Eri	e    
+15371	Ret	zet02
+15696	Ari	     
+15737	Ari	     
+15863	Per	alf  
+15861	Ari	     
+15201	Hyi	iot  
+15870	Ari	     
+15900	Tau	omi  
+16083	Tau	ksi  
+15987	For	chi01
+16244	Per	     
+16181	Ari	     
+16335	Per	sig  
+16112	For	chi02
+16156	For	chi03
+16322	Tau	s    
+16369	Tau	f    
+16499	Per	     
+16341	Eri	v    
+16511	Tau	t    
+16245	Ret	kap  
+16537	Eri	eps  
+16664	Tau	     
+16826	Per	psi  
+16611	Eri	tau05
+16859	Tau	     
+16803	Eri	     
+16852	Tau	     
+16870	Eri	y    
+17027	Eri	     
+17007	For	tau  
+17103	Tau	     
+17181	Tau	     
+17167	Eri	     
+17358	Per	del  
+17313	Per	o    
+17309	Tau	     
+17448	Per	omi  
+17408	Tau	     
+17304	For	del  
+17529	Per	nu.  
+17378	Eri	del  
+17489	Tau	     
+17499	Tau	     
+17351	Eri	h    
+17527	Tau	     
+17531	Tau	q    
+17457	Eri	     
+17959	Cam	gam  
+17573	Tau	     
+17506	Eri	     
+17579	Tau	     
+17588	Tau	     
+17563	Tau	u    
+17608	Tau	     
+      	Tau	eta  
+17593	Eri	pi.  
+      	Tau	     
+17702	Tau	eta  
+17618	For	sig  
+17651	Eri	tau06
+17771	Tau	e    
+17440	Ret	bet  
+17832	Tau	     
+17886	Per	n    
+17847	Tau	     
+17851	Tau	     
+17717	Eri	tau07
+17738	For	rho  
+17797	Eri	f    
+      	Eri	f    
+17874	Eri	g    
+18089	Tau	     
+18141	Eri	     
+18246	Per	zet  
+17678	Hyi	gam  
+18350	Per	X    
+18453	Per	A    
+18255	Eri	w    
+      	Eri	w    
+18216	Eri	tau08
+18213	Eri	i    
+18471	Tau	     
+18532	Per	eps  
+18485	Tau	     
+18614	Per	ksi  
+18543	Eri	gam  
+18724	Tau	lam  
+18673	Eri	tau09
+18788	Eri	     
+18597	Ret	del  
+18907	Tau	nu.  
+19009	Tau	     
+18957	Tau	     
+19038	Tau	A01  
+19167	Per	lam  
+19076	Tau	A02  
+18744	Ret	gam  
+18772	Ret	iot  
+19171	Tau	     
+19205	Tau	psi  
+19343	Per	c    
+19302	Per	     
+19335	Per	     
+19388	Tau	     
+19513	Tau	p    
+19483	Eri	     
+19554	Tau	     
+19587	Eri	omi01
+19515	Hor	del  
+19812	Per	mu.  
+19811	Per	f    
+19719	Tau	     
+19740	Tau	     
+19777	Eri	A    
+19877	Tau	     
+19860	Tau	mu.  
+20070	Per	b    
+19849	Eri	omi02
+19747	Hor	alf  
+      	Eri	omi02
+19990	Tau	ome  
+20087	Tau	     
+20234	Per	b02  
+19780	Ret	alf  
+19893	Dor	gam  
+20171	Tau	     
+20186	Tau	     
+20252	Per	     
+20205	Tau	gam  
+20042	Eri	ups04
+20250	Tau	phi  
+20215	Tau	     
+20354	Per	d    
+20219	Tau	h    
+19921	Ret	eps  
+20261	Tau	     
+20271	Eri	d    
+20400	Tau	     
+20430	Tau	chi  
+20020	Ret	the  
+20455	Tau	del  
+20484	Tau	     
+20579	Per	     
+20533	Tau	     
+20591	Per	     
+20542	Tau	     
+20522	Tau	r    
+20507	Eri	ksi  
+20635	Tau	kap  
+20641	Tau	     
+20648	Tau	     
+20661	Tau	     
+20711	Tau	ups  
+20535	Eri	d    
+20713	Tau	     
+20384	Ret	eta  
+20732	Tau	pi.  
+20789	Tau	     
+20877	Tau	     
+20873	Tau	     
+20889	Tau	eps  
+20885	Tau	the01
+20894	Tau	the02
+20901	Tau	b    
+20884	Eri	     
+21148	Cam	     
+20995	Tau	     
+20049	Men	del  
+21039	Tau	     
+21036	Tau	     
+21082	Tau	     
+21137	Tau	     
+21242	Per	m    
+21139	Eri	     
+21060	Cae	del  
+21273	Tau	rho  
+21278	Eri	     
+21296	Eri	     
+21248	Eri	ups01
+21476	Per	e    
+20297	Men	nu.  
+21421	Tau	alf  
+21402	Tau	d    
+21444	Eri	nu.  
+21393	Eri	ups02
+21281	Dor	alf  
+21730	Cam	     
+21727	Cam	     
+21515	Eri	     
+21588	Tau	     
+21589	Tau	c01  
+21547	Eri	c    
+21673	Tau	sig01
+21683	Tau	sig02
+21594	Eri	l    
+21735	Tau	     
+21479	Dor	R    
+21928	Per	     
+21763	Eri	     
+21881	Tau	tau  
+21961	Tau	     
+21770	Cae	alf  
+21861	Cae	bet  
+21986	Eri	     
+      	Eri	     
+22024	Eri	     
+22287	Cam	     
+21914	Pic	lam  
+21998	Cae	lam  
+22109	Eri	mu.  
+22040	Dor	kap  
+22263	Eri	     
+22453	Aur	     
+22441	Tau	     
+22325	Eri	     
+22280	Cae	zet  
+21949	Men	mu.  
+22783	Cam	alf  
+22449	Ori	pi.03
+22509	Ori	pi.02
+22565	Tau	i    
+22479	Eri	     
+22678	Aur	     
+22549	Ori	pi.04
+22854	Cam	     
+22667	Ori	omi01
+22488	Cae	nu.  
+22701	Eri	ome  
+22730	Ori	     
+22531	Pic	iot  
+22534	Pic	iot  
+22797	Ori	pi.05
+23040	Cam	     
+22833	Ori	g    
+22845	Ori	pi.01
+23015	Aur	iot  
+22957	Ori	omi02
+22881	Eri	R    
+22958	Eri	b    
+23068	Tau	     
+23216	Cam	     
+23088	Tau	k    
+23179	Aur	     
+23261	Aur	     
+23123	Ori	pi.06
+23268	Aur	     
+23214	Tau	     
+23522	Cam	bet  
+23416	Aur	eps  
+      	Lep	R    
+23221	Eri	     
+23231	Eri	S    
+23453	Aur	zet  
+23364	Eri	psi  
+23497	Tau	iot  
+23734	Cam	     
+23743	Cam	     
+22871	Men	eta  
+23474	Lep	     
+23783	Aur	     
+23607	Ori	     
+23767	Aur	eta  
+23680	Ori	W    
+23482	Pic	eta01
+23595	Cae	gam  
+23596	Cae	gam  
+23685	Lep	eps  
+23835	Tau	m    
+23794	Eri	     
+23871	Tau	l    
+23900	Tau	     
+23883	Tau	     
+23852	Ori	     
+23649	Pic	eta02
+23879	Ori	i    
+23875	Eri	bet  
+23983	Ori	h    
+23941	Eri	     
+23693	Dor	zet  
+24010	Ori	     
+23467	Men	bet  
+24348	Cam	     
+23972	Eri	lam  
+24340	Aur	mu.  
+24244	Lep	iot  
+24331	Ori	rho  
+24305	Lep	mu.  
+24327	Lep	kap  
+24504	Aur	     
+      	Aur	     
+24608	Aur	alf  
+24512	Tau	     
+24575	Aur	AE   
+24436	Ori	bet  
+23148	Men	ksi  
+24555	Ori	     
+24836	Cam	     
+24727	Aur	     
+24740	Aur	AR   
+24813	Aur	lam  
+24832	Aur	     
+24674	Ori	tau  
+24822	Tau	n    
+24879	Aur	     
+24659	Col	omi  
+24372	Dor	the  
+24817	Ori	     
+25048	Aur	rho  
+25197	Cam	     
+24845	Lep	lam  
+24873	Lep	nu.  
+25044	Ori	o    
+24829	Pic	zet  
+25192	Aur	     
+25145	Ori	m    
+25142	Ori	m    
+25292	Aur	sig  
+25216	Tau	     
+25278	Tau	     
+25202	Lep	     
+25247	Ori	e    
+25282	Ori	p    
+25281	Ori	eta  
+25302	Ori	     
+25336	Ori	gam  
+25428	Tau	bet  
+25410	Tau	     
+25098	Pic	kap  
+25769	Cam	     
+25541	Aur	phi  
+25499	Tau	     
+25539	Tau	o    
+25473	Ori	psi  
+25555	Tau	     
+25583	Tau	     
+25303	Pic	the  
+25695	Tau	     
+25973	Cam	     
+25606	Lep	bet  
+25737	Ori	     
+25429	Dor	lam  
+25785	Ori	CK   
+25813	Ori	A    
+25861	Ori	n01  
+25984	Aur	chi  
+25945	Tau	CE   
+25853	Lep	     
+      	Ori	del  
+25930	Ori	del  
+25923	Ori	ups  
+26408	Cam	     
+26064	Tau	     
+25859	Col	eps  
+26093	Ori	     
+25985	Lep	alf  
+26063	Ori	VV   
+26126	Ori	n02  
+26248	Tau	     
+26176	Ori	phi01
+26207	Ori	lam  
+      	Ori	lam  
+26237	Ori	c    
+26220	Ori	the01
+      	Ori	the01
+26221	Ori	the01
+26224	Ori	the01
+26235	Ori	the02
+26241	Ori	iot  
+26587	Cam	     
+26268	Ori	     
+26311	Ori	eps  
+26382	Tau	     
+26366	Ori	phi02
+26451	Tau	zet  
+26536	Aur	     
+26001	Dor	     
+26069	Dor	bet  
+26412	Col	nu.01
+26640	Tau	     
+26549	Ori	sig  
+      	Ori	sig  
+26594	Ori	ome  
+26460	Col	nu.02
+26563	Ori	d    
+26942	Cam	     
+27046	Cam	     
+26777	Tau	     
+26727	Ori	zet  
+      	Ori	zet  
+25918	Men	gam  
+26634	Col	alf  
+26885	Ori	b    
+26865	Lep	     
+27249	Cam	     
+27196	Aur	omi  
+27283	Cam	     
+      	Lep	gam  
+27072	Lep	gam  
+27265	Tau	     
+27316	Tau	     
+27338	Tau	     
+26264	Men	iot  
+27592	Cam	     
+27364	Tau	     
+27483	Aur	tau  
+27204	Col	mu.  
+27288	Lep	zet  
+27386	Ori	     
+27468	Tau	     
+27366	Ori	kap  
+27731	Cam	     
+27511	Tau	     
+27639	Aur	ups  
+27673	Aur	nu.  
+27100	Dor	del  
+27581	Tau	     
+27321	Pic	bet  
+26394	Men	pi.  
+27971	Cam	     
+27949	Aur	ksi  
+27658	Ori	     
+27743	Tau	     
+27830	Tau	     
+27654	Lep	del  
+27750	Ori	     
+27628	Col	bet  
+27530	Pic	gam  
+27913	Ori	chi01
+27965	Ori	     
+27810	Col	lam  
+25776	Men	     
+27989	Ori	alf  
+27369	Men	lam  
+      	Ori	U    
+27534	Dor	eps  
+28358	Aur	del  
+28237	Tau	     
+28103	Lep	eta  
+28010	Col	ksi  
+28360	Aur	bet  
+28404	Aur	pi.  
+28098	Col	sig  
+28380	Aur	the  
+28271	Ori	     
+28499	Aur	     
+27890	Dor	     
+28296	Ori	     
+28199	Col	gam  
+28321	Mon	     
+28325	Mon	     
+28561	Tau	     
+28677	Aur	     
+28328	Col	eta  
+28765	Cam	     
+28614	Ori	mu.  
+27566	Men	kap  
+28574	Mon	     
+28691	Ori	     
+28823	Aur	     
+28734	Gem	     
+28716	Ori	chi02
+28946	Aur	     
+28812	Ori	     
+28814	Ori	     
+28816	Lep	     
+28756	Col	     
+28969	Gem	     
+29246	Cam	     
+28910	Lep	the  
+28874	Lep	S    
+29038	Ori	nu.  
+29490	Cam	     
+29048	Lep	     
+28957	Col	pi.01
+29225	Gem	     
+29388	Aur	     
+      	Aur	     
+29034	Col	the  
+29288	Gem	     
+29064	Col	pi.02
+29379	Gem	     
+29433	Ori	     
+28909	Dor	eta01
+29450	Gem	BU   
+29434	Ori	f01  
+29426	Ori	ksi  
+29730	Cam	     
+29276	Pic	del  
+29919	Lyn	     
+29655	Gem	eta  
+29696	Aur	kap  
+29650	Ori	     
+29134	Dor	nu.  
+29704	Ori	f02  
+29651	Mon	gam  
+29884	Aur	     
+29736	Ori	     
+29789	Gem	     
+30060	Lyn	     
+29949	Aur	     
+29840	Gem	     
+29800	Ori	k    
+29353	Dor	eta02
+29850	Ori	l    
+30003	Gem	     
+30278	Lyn	     
+29885	Mon	     
+29807	Col	kap  
+30272	Lyn	     
+30046	Gem	     
+29271	Men	alf  
+30049	Gem	     
+30247	Aur	     
+30073	Mon	     
+30122	CMa	zet  
+30343	Gem	mu.  
+30520	Aur	psi01
+      	Mon	V    
+30651	Lyn	RR   
+30679	Lyn	     
+30324	CMa	bet  
+30277	Col	del  
+30419	Mon	eps  
+30422	Mon	eps  
+30564	Ori	BL   
+30541	Mon	T    
+30342	Pic	nu.  
+30438	Car	alf  
+30757	Gem	     
+30769	Gem	     
+31039	Lyn	     
+30827	Aur	RT   
+30717	Ori	     
+30700	Mon	     
+30720	Ori	     
+30972	Aur	     
+30883	Gem	nu.  
+30772	Mon	     
+30591	Pup	G    
+30321	Dor	pi.01
+30867	Mon	bet  
+      	Mon	bet  
+      	Mon	bet  
+30788	CMa	lam  
+31105	Gem	     
+31173	Aur	WW   
+31359	Lyn	     
+30565	Dor	pi.02
+31158	Gem	     
+31159	Mon	     
+31216	Mon	     
+31125	CMa	ksi01
+30932	Pic	     
+31676	Lyn	     
+31434	Aur	     
+31665	Lyn	     
+31385	Mon	     
+31579	Aur	UU   
+31525	Gem	     
+31137	Pic	mu.  
+31416	CMa	ksi02
+31771	Aur	     
+31789	Aur	psi03
+31681	Gem	gam  
+31564	CMa	nu.01
+31737	Aur	     
+31832	Aur	psi02
+31592	CMa	nu.02
+31407	Car	N    
+31852	Aur	     
+31700	CMa	nu.03
+31685	Pup	nu.  
+32019	Gem	     
+31978	Mon	S    
+32173	Aur	psi04
+31765	Pup	Y    
+32104	Gem	     
+32438	Lyn	     
+32246	Gem	eps  
+32489	Lyn	     
+32249	Gem	     
+32311	Gem	     
+32480	Aur	psi05
+32362	Gem	ksi  
+32562	Aur	psi06
+32404	Gem	     
+32864	Cam	     
+32349	CMa	alf  
+32292	CMa	     
+32463	Mon	     
+32533	Mon	     
+32492	CMa	     
+32578	Mon	     
+32504	CMa	     
+33104	Cam	     
+32844	Aur	psi07
+32537	Pup	x    
+32753	Gem	     
+33048	Lyn	     
+      	Lyn	     
+32814	Gem	     
+32531	Car	O    
+32921	Gem	d    
+32759	CMa	kap  
+33041	Aur	     
+33018	Gem	the  
+33064	Aur	     
+33133	Aur	psi08
+32765	Pup	X    
+32607	Pic	alf  
+32768	Pup	tau  
+32761	Car	A    
+31897	Men	zet  
+33449	Lyn	     
+33202	Gem	e    
+33377	Aur	psi09
+33277	Gem	     
+33092	CMa	     
+33160	CMa	the  
+33152	CMa	omi01
+33485	Lyn	     
+33248	CMa	     
+33302	CMa	pi.  
+33345	CMa	mu.  
+33347	CMa	iot  
+33614	Aur	     
+33595	Gem	     
+32912	Vol	iot  
+33650	Gem	     
+33715	Gem	     
+33579	CMa	eps  
+33558	Pup	t    
+33927	Gem	ome  
+33856	CMa	sig  
+33971	Mon	     
+34088	Gem	zet  
+33779	Car	     
+33977	CMa	omi02
+34045	CMa	gam  
+34182	Gem	     
+34572	Lyn	     
+34081	Pup	C    
+      	Gem	R    
+34059	Pup	H    
+34440	Gem	     
+33384	Men	the  
+34339	Pup	D    
+34444	CMa	del  
+34752	Aur	     
+34693	Gem	tau  
+34722	Gem	     
+34622	Mon	     
+34495	Pup	A    
+34819	Gem	     
+34724	Mon	     
+34861	Gem	     
+34769	Mon	del  
+35146	Lyn	     
+34909	Gem	     
+34798	CMa	     
+35025	Gem	     
+34802	Pup	E    
+34473	Vol	gam01
+34481	Vol	gam02
+35152	Gem	     
+34834	Pup	I    
+36547	Cam	VZ   
+35080	Mon	     
+34981	CMa	     
+34899	Pup	L01  
+34922	Pup	L02  
+35037	CMa	ome  
+35341	Aur	     
+35350	Gem	lam  
+35210	CMa	     
+35735	Cam	     
+35264	Pup	pi.  
+35550	Gem	del  
+35412	CMa	UW   
+35415	CMa	tau  
+35726	Lyn	     
+35783	Lyn	     
+35785	Lyn	     
+35363	Pup	v01  
+35487	CMa	R    
+35347	Pup	M    
+35406	Pup	v02  
+35393	Pup	F    
+35710	Aur	     
+35699	Gem	     
+35228	Vol	del  
+35907	Aur	     
+35846	Gem	A    
+35842	Gem	     
+35941	Gem	     
+36145	Lyn	     
+35987	CMi	     
+36046	Gem	iot  
+35904	CMa	eta  
+36041	CMi	eps  
+36156	Gem	     
+36188	CMi	bet  
+36238	Gem	     
+36439	Lyn	     
+36265	CMi	eta  
+36366	Gem	rho  
+36284	CMi	gam  
+36393	Gem	     
+36429	Gem	b    
+36425	CMi	     
+36363	Pup	y    
+36521	Mon	U    
+36377	Pup	sig  
+36641	CMi	del01
+36760	Gem	     
+36723	CMi	del02
+      	Gem	alf  
+36850	Gem	alf  
+36812	CMi	del03
+36962	Gem	ups  
+36817	Pup	n    
+      	Pup	n    
+36778	Pup	z    
+36039	Men	eps  
+36917	Pup	p    
+37204	Gem	     
+37088	Mon	     
+37406	Lyn	     
+37265	Gem	omi  
+36942	Car	Q    
+37096	Pup	f    
+37300	Gem	f    
+37043	Pup	y02  
+37279	CMi	alf  
+37173	Pup	m    
+37609	Lyn	     
+37229	Pup	kap01
+      	Pup	kap02
+37223	Pup	e    
+37174	Pup	y03  
+37379	Pup	     
+37297	Pup	d01  
+37322	Pup	d02  
+37329	Pup	d03  
+37345	Pup	d04  
+37447	Mon	alf  
+37629	Gem	sig  
+37949	Cam	     
+37934	Cam	     
+37704	Gem	c    
+37740	Gem	kap  
+37826	Gem	bet  
+37811	Gem	     
+37648	Pup	     
+37677	Pup	l    
+37664	Pup	W    
+37908	Gem	g    
+37921	CMi	     
+37842	Pup	     
+37843	Pup	     
+38016	Gem	pi.  
+37891	Pup	     
+37819	Pup	c    
+37853	Pup	     
+38106	Gem	     
+37504	Vol	zet  
+38048	Pup	     
+38070	Pup	omi  
+38146	Pup	     
+38211	Pup	     
+38170	Pup	ksi  
+38089	Pup	Q    
+38164	Pup	P    
+38373	CMi	zet  
+38372	Pup	     
+38382	Pup	     
+38623	Lyn	     
+38639	Lyn	     
+38538	Gem	phi  
+38427	Pup	     
+38423	Pup	     
+38414	Pup	a    
+38455	Pup	b    
+38722	Gem	     
+38518	Pup	J    
+38848	Cnc	     
+38835	Pup	j    
+39261	Cam	     
+38962	CMi	     
+38901	Pup	chi  
+38872	Pup	N    
+38827	Car	chi  
+39348	Cam	     
+38917	Pup	O    
+39079	Mon	     
+39023	Pup	     
+39191	Cnc	ome  
+39177	Cnc	     
+38957	Pup	V    
+39263	Cnc	     
+39236	Cnc	     
+39211	Mon	     
+39311	CMi	G    
+39424	Gem	chi  
+39138	Car	D    
+39567	Cnc	     
+39429	Pup	zet  
+39722	Lyn	     
+39524	Pup	     
+39659	Cnc	     
+39847	Lyn	     
+39780	Cnc	mu.  
+40215	Cam	     
+39874	Cnc	     
+39757	Pup	rho  
+39863	Mon	zet  
+40007	Cnc	psi01
+40023	Cnc	psi  
+39906	Pup	     
+40035	Pup	     
+      	Vel	gam01
+40167	Cnc	zet02
+40167	Cnc	zet01
+39953	Vel	gam02
+40084	Pup	     
+40240	Cnc	     
+39903	Car	B    
+40474	Cam	     
+39794	Vol	eps  
+40091	Pup	h01  
+40259	Pup	     
+40155	Vel	AH   
+40646	Lyn	     
+40274	Pup	r    
+40326	Pup	h02  
+40772	Cam	     
+40282	Vel	     
+      	Cnc	R    
+40526	Cnc	bet  
+40875	Lyn	     
+40604	Pup	     
+40429	Car	C    
+40843	Cnc	chi  
+40881	Cnc	lam  
+40706	Pup	q    
+41075	Lyn	     
+40945	Pup	w    
+41117	Cnc	d01  
+41067	Pup	     
+41163	Cnc	     
+41039	Vel	B    
+41211	Hya	     
+41319	Cnc	d02  
+40817	Vol	kap01
+40834	Vol	kap02
+41377	Cnc	phi01
+41037	Car	eps  
+41404	Cnc	phi02
+      	Cnc	phi02
+41389	Cnc	     
+      	Cnc	     
+41307	Hya	C    
+40702	Cha	alf  
+41400	Cnc	     
+41375	Hya	     
+41704	UMa	omi  
+41574	Cnc	     
+41578	Cnc	     
+41003	Vol	eta  
+40888	Cha	the  
+41312	Vol	bet  
+41483	Vel	F    
+42080	UMa	A    
+41816	Cnc	ups01
+41822	Cnc	the  
+41616	Vel	A    
+41975	Lyn	     
+41909	Cnc	eta  
+41940	Cnc	ups02
+41904	Cnc	     
+42090	Lyn	     
+42133	Cnc	     
+42438	UMa	pi.01
+42146	Hya	     
+42527	UMa	pi.02
+42265	Cnc	c    
+42088	Vel	C    
+42313	Hya	del  
+42353	Cnc	     
+42177	Vel	E    
+42134	Car	e02  
+42129	Car	e01  
+42402	Hya	sig  
+42334	Pyx	eta  
+42485	Cnc	     
+42604	Lyn	     
+42312	Vel	e    
+42516	Cnc	     
+42523	Cnc	     
+42556	Cnc	eps  
+42578	Cnc	     
+42509	Hya	a    
+42483	Pyx	zet  
+42515	Pyx	bet  
+42662	Hya	     
+42570	Vel	b    
+42536	Vel	omi  
+42806	Cnc	gam  
+42795	Cnc	A01  
+42624	Vel	n    
+42799	Hya	eta  
+42568	Car	d    
+42835	Hya	F    
+42425	Vol	the  
+42911	Cnc	del  
+42954	Cnc	     
+42917	Cnc	b    
+42828	Pyx	alf  
+42931	Hya	     
+43100	Cnc	iot  
+43103	Cnc	iot  
+42834	Vel	D    
+42884	Vel	d    
+43121	Cnc	A02  
+43109	Hya	eps  
+43067	Hya	D    
+42913	Vel	del  
+43023	Vel	a    
+43234	Hya	rho  
+43105	Car	f    
+43305	Hya	     
+42637	Cha	eta  
+43644	UMa	b    
+43531	Lyn	     
+43454	Cnc	     
+43463	Cnc	     
+43325	Vel	h    
+43409	Pyx	gam  
+43584	Cnc	sig01
+43347	Vel	g    
+43575	Cnc	     
+43587	Cnc	rho01
+43496	Hya	     
+42794	Cha	     
+43413	Vel	f    
+43903	UMa	     
+43721	Cnc	     
+43834	Cnc	rho02
+43811	Cnc	X    
+43813	Hya	zet  
+43851	Cnc	     
+43822	Hya	     
+      	Hya	     
+43932	Cnc	sig02
+43825	Pyx	del  
+43970	Cnc	omi01
+44031	Cnc	     
+44001	Cnc	omi02
+44127	UMa	iot  
+43783	Car	c    
+44066	Cnc	alf  
+43878	Vel	H    
+44154	Cnc	sig03
+44390	UMa	rho  
+44248	UMa	     
+43937	Car	b01  
+44307	Cnc	     
+44342	Cnc	     
+44191	Vel	w    
+44471	UMa	kap  
+44405	Cnc	nu.  
+44143	Car	b02  
+44512	Cnc	     
+44857	UMa	sig01
+44659	Hya	ome  
+44511	Vel	c    
+44382	Vol	alf  
+45038	UMa	sig02
+44901	UMa	f    
+44818	Cnc	tau  
+44798	Cnc	kap  
+44838	Cnc	     
+45075	UMa	tau  
+      	UMa	tau  
+44892	Cnc	     
+44946	Cnc	ksi  
+44824	Pyx	kap  
+44883	Hya	     
+44816	Vel	lam  
+45058	Cnc	RS   
+45033	Cnc	     
+44961	Hya	     
+44626	Car	E    
+44599	Car	G    
+45001	Pyx	eps  
+45153	Cnc	     
+45333	UMa	c    
+45170	Cnc	     
+45290	Lyn	     
+45184	Hya	     
+45080	Car	a    
+45455	UMa	     
+45493	UMa	e    
+45101	Car	i    
+45336	Hya	the  
+45410	Cnc	pi.  
+45344	Vel	z    
+45386	Vel	k01  
+43908	Oct	zet  
+45527	Hya	     
+45439	Vel	l    
+45526	Hya	     
+45448	Vel	k    
+45238	Car	bet  
+45688	Lyn	     
+45588	Hya	     
+45699	Cnc	     
+45496	Car	g    
+45836	Lyn	     
+45556	Car	iot  
+45631	Vel	K    
+45860	Lyn	alf  
+45751	Hya	     
+45811	Hya	P    
+45902	Pyx	the  
+45856	Car	k    
+46146	Leo	kap  
+46026	Pyx	lam  
+45941	Vel	kap  
+46221	Hya	     
+46471	Lyn	     
+46365	Hya	     
+46390	Hya	alf  
+46371	Hya	G    
+46283	Vel	I    
+46454	Leo	ome  
+46457	Leo	     
+46733	UMa	h    
+46509	Hya	tau01
+46652	LMi	     
+46515	Ant	eps  
+47013	UMa	     
+46735	LMi	     
+46977	UMa	d    
+46750	Leo	lam  
+46853	UMa	the  
+46774	Leo	h    
+46657	Ant	zet01
+      	Ant	zet01
+46771	Leo	ksi  
+46651	Vel	psi  
+46776	Hya	tau02
+46734	Ant	zet02
+46904	LMi	     
+46107	Cha	iot  
+47006	UMa	     
+46952	LMi	     
+46701	Vel	N    
+46982	Hya	A    
+47080	LMi	     
+      	Car	R    
+47096	Leo	     
+46950	Vel	L    
+46741	Car	H    
+46974	Car	h    
+47189	Leo	     
+47205	Leo	     
+47247	Leo	     
+47300	Lyn	     
+47266	Leo	     
+47249	Hya	     
+47310	Sex	     
+47175	Vel	M    
+47654	UMa	     
+47267	Vel	y    
+47431	Hya	iot  
+47427	Hya	     
+47452	Hya	kap  
+47570	Lyn	     
+47508	Leo	omi  
+      	Leo	omi  
+47550	Leo	     
+47391	Car	m    
+47631	LMi	     
+47522	Hya	I    
+46928	Cha	zet  
+47701	Leo	f    
+47911	UMa	     
+47723	Leo	psi  
+47965	Lyn	     
+47758	Ant	the  
+47908	Leo	eps  
+47973	LMi	     
+47717	Vel	O    
+47959	Leo	     
+48029	Leo	     
+48113	LMi	     
+      	Leo	R    
+47854	Car	l    
+48319	UMa	ups  
+48256	LMi	     
+48218	Leo	     
+48002	Car	ups  
+      	Car	ups  
+48273	Sex	     
+48402	UMa	phi  
+48324	Leo	     
+48224	Vel	u    
+48341	Sex	     
+48390	Leo	g    
+47956	Cha	nu.  
+48356	Hya	ups01
+48455	Leo	mu.  
+48414	Sex	     
+48437	Sex	gam  
+48374	Vel	m    
+48552	Sex	     
+48682	UMa	     
+48742	LMi	     
+48833	LMi	     
+48883	Leo	nu.  
+48774	Vel	phi  
+48990	Sex	     
+48926	Ant	eta  
+      	Car	RR   
+49029	Leo	pi.  
+49081	LMi	     
+49329	Sex	     
+49402	Hya	ups02
+49530	Sex	     
+49593	LMi	     
+49583	Leo	eta  
+49637	Leo	A    
+49641	Sex	alf  
+49669	Leo	alf  
+49065	Cha	mu.  
+49812	Sex	     
+49712	Vel	Q    
+49841	Hya	lam  
+49865	Sex	     
+49326	Cha	mu.02
+49929	Leo	     
+49751	Car	S    
+50027	Sex	     
+50222	UMa	U    
+50100	Sex	     
+50140	Sex	     
+50218	LMi	     
+50191	Vel	q    
+50303	LMi	     
+50083	Car	M    
+50448	UMa	     
+50316	LMi	     
+50319	Leo	     
+50372	UMa	lam  
+50335	Leo	zet  
+50333	Leo	     
+50099	Car	ome  
+50384	Leo	     
+50414	Sex	eps  
+50371	Car	q    
+50564	Leo	     
+50583	Leo	gam01
+      	Leo	gam02
+50684	Sex	     
+50801	UMa	mu.  
+50755	Leo	     
+50676	Vel	J    
+50860	LMi	     
+50851	Leo	     
+50799	Vel	r    
+50935	LMi	     
+50885	Sex	     
+51047	LMi	     
+51008	Leo	     
+50847	Car	L    
+51056	LMi	     
+51069	Hya	mu.  
+51117	Sex	     
+51135	Sex	     
+51233	LMi	bet  
+51213	Leo	     
+50954	Car	I    
+51172	Ant	alf  
+51401	UMa	     
+51192	Car	P    
+51459	UMa	     
+51420	LMi	     
+51232	Car	s    
+51362	Sex	del  
+51376	Ant	del  
+51437	Sex	bet  
+51451	Sex	     
+51556	LMi	     
+51585	Leo	     
+51624	Leo	rho  
+51523	Vel	Y    
+51561	Vel	s    
+51685	LMi	     
+51614	Hya	phi01
+51438	Car	K    
+51576	Car	p    
+51814	UMa	     
+51635	Vel	t    
+51718	Hya	     
+51775	Leo	     
+51802	Leo	     
+51914	LMi	     
+51821	Ant	U    
+51905	Hya	phi02
+51849	Car	r    
+52032	LMi	     
+52009	Hya	U    
+51912	Car	t01  
+52098	LMi	     
+51986	Vel	p    
+52139	LMi	     
+52085	Hya	phi  
+51839	Cha	gam  
+52102	Car	t02  
+52353	UMa	     
+52154	Vel	x    
+52316	Sex	     
+52478	UMa	     
+52401	Sex	     
+      	UMa	R    
+52422	LMi	     
+52457	LMi	     
+52452	Sex	     
+52419	Car	the  
+52468	Car	w    
+52650	UMa	     
+52584	Sex	     
+52685	UMa	     
+52638	LMi	     
+52660	Sex	     
+52686	Leo	m    
+52689	Leo	k    
+      	Car	eta  
+52737	Hya	b01  
+52727	Vel	mu.  
+52882	LMi	     
+52911	Leo	l    
+52913	Sex	     
+52959	LMi	     
+52595	Cha	del01
+52943	Hya	nu.  
+52633	Cha	del02
+53043	UMa	     
+53064	UMa	     
+52980	Sex	     
+53261	UMa	     
+53229	LMi	     
+53295	UMa	ome  
+53252	Hya	b03  
+53273	Leo	p01  
+53355	LMi	     
+53377	LMi	     
+53253	Car	u    
+53426	UMa	     
+53417	Leo	     
+      	Leo	     
+53423	Leo	     
+53449	Leo	     
+53492	LMi	     
+53394	Car	T    
+53502	Ant	iot  
+53721	UMa	     
+53740	Crt	alf  
+53838	UMa	     
+53807	Leo	d    
+53773	Vel	i    
+53824	Leo	c    
+53910	UMa	bet  
+53907	Leo	p02  
+53954	Leo	b    
+54061	UMa	alf  
+54049	Leo	p03  
+54136	UMa	     
+54196	LMi	     
+54182	Leo	chi  
+53702	Oct	eta  
+54204	Hya	chi01
+54255	Hya	chi02
+54347	LMi	     
+54336	Leo	p04  
+54388	Leo	     
+54301	Car	z    
+54487	Leo	     
+54539	UMa	psi  
+54463	Car	x    
+54461	Car	z02  
+54682	Crt	bet  
+54742	Crt	psi  
+54751	Car	y    
+54849	Leo	p05  
+54872	Leo	del  
+54879	Leo	the  
+54951	Leo	     
+55016	Leo	n    
+55084	Leo	phi  
+55137	Leo	     
+55203	UMa	ksi  
+      	UMa	ksi  
+55219	UMa	nu.  
+55266	UMa	     
+55249	Leo	     
+55282	Crt	del  
+55434	Leo	sig  
+55425	Cen	pi.  
+55533	Leo	     
+55560	UMa	     
+55598	Crt	lam  
+55642	Leo	iot  
+55650	Leo	     
+55687	Crt	eps  
+55705	Crt	gam  
+55765	Leo	     
+55791	Leo	     
+55846	Leo	     
+55874	Crt	kap  
+55945	Leo	tau  
+56034	UMa	     
+56080	Leo	     
+56148	UMa	     
+56127	Leo	e    
+56146	Leo	     
+56211	Dra	lam  
+56242	Leo	     
+56243	Cen	omi01
+56250	Cen	omi02
+56280	Crt	     
+      	Crt	     
+56343	Hya	ksi  
+56445	Leo	     
+56473	Leo	     
+56480	Cen	A    
+56583	Dra	     
+56518	Cen	C01  
+56573	Cen	C02  
+56561	Cen	lam  
+56633	Crt	the  
+56647	Leo	ups  
+56700	Cen	C03  
+56770	UMa	     
+56675	Cha	pi.  
+56789	UMa	     
+56779	Vir	ome  
+56802	Crt	iot  
+56922	Hya	omi  
+56975	Leo	     
+56997	UMa	     
+57029	UMa	     
+57111	Dra	     
+57283	Crt	zet  
+57328	Vir	ksi  
+57380	Vir	nu.  
+57399	UMa	chi  
+57363	Mus	lam  
+57565	Leo	     
+57562	Vir	A01  
+57581	Mus	mu.  
+57632	Leo	bet  
+57669	Cen	j    
+57757	Vir	bet  
+57803	Cen	B    
+57936	Hya	bet  
+58001	UMa	gam  
+58112	UMa	     
+58110	Vir	A02  
+58117	UMa	     
+58159	Leo	o    
+58181	UMa	     
+58188	Crt	eta  
+58484	Cha	eps  
+58510	Vir	b    
+58590	Vir	pi.  
+58587	Crt	     
+58661	Com	     
+58684	UMa	     
+58758	Cru	the01
+58799	Cen	     
+58858	Com	     
+58867	Cru	the02
+58905	Cha	kap  
+58948	Vir	omi  
+59072	Cru	eta  
+59184	Cen	E    
+59196	Cen	del  
+59199	Crv	alf  
+59285	Vir	     
+59309	Vir	     
+59316	Crv	eps  
+59352	Com	     
+59394	Crv	     
+59449	Cen	rho  
+59468	Com	     
+59458	UMa	     
+59501	Com	     
+59551	Mus	S    
+59608	Vir	     
+59654	Cen	D    
+59708	CVn	     
+59747	Cru	del  
+59774	UMa	del  
+59803	Crv	gam  
+59819	Com	     
+59831	CVn	     
+59847	Com	     
+59929	Mus	eps  
+60000	Cha	bet  
+60009	Cru	zet  
+60030	Vir	     
+60059	Cen	F    
+60087	Com	     
+      	Crv	R    
+60098	Com	     
+60129	Vir	eta  
+60122	CVn	     
+60123	Com	     
+60172	Vir	c    
+60189	Crv	zet  
+60202	Com	     
+60260	Cru	eps  
+60212	UMa	     
+60320	Mus	zet02
+60329	Mus	zet01
+60351	Com	     
+      	Com	     
+60353	Vir	     
+60425	Crv	     
+60449	Cen	x01  
+60467	CVn	     
+60485	CVn	     
+60514	Com	     
+60610	Cen	x02  
+60584	UMa	     
+60646	CVn	     
+60718	Cru	alf01
+      	Cru	alf02
+      	Cru	     
+60710	Cen	G    
+60697	Com	     
+60712	UMa	     
+60742	Com	gam  
+60746	Com	     
+60823	Cen	sig  
+60795	UMa	     
+60855	Cen	u    
+60891	Com	     
+60904	Com	     
+60941	Com	     
+60957	Com	     
+60965	Crv	del  
+60978	UMa	     
+60988	CVn	     
+60992	UMa	     
+61084	Cru	gam  
+60998	Dra	     
+      	Cru	gam  
+61071	Com	     
+61136	Cru	     
+61199	Mus	gam  
+61174	Crv	eta  
+61246	Vir	     
+61295	Com	     
+61318	Vir	q    
+61317	CVn	bet  
+61404	Mus	BO   
+61359	Crv	bet  
+61281	Dra	kap  
+61394	Com	     
+61415	Com	     
+61418	Com	     
+61384	Dra	     
+61585	Mus	alf  
+61558	Vir	f    
+      	UMa	T    
+61571	Com	     
+61622	Cen	tau  
+      	Vir	R    
+61692	CVn	     
+61740	Vir	chi  
+61724	Com	     
+61789	Cen	l    
+61932	Cen	gam  
+61981	Mus	R    
+61966	Cru	     
+61937	Vir	     
+61941	Vir	gam  
+      	Vir	gam  
+61960	Vir	rho  
+61969	Vir	     
+61968	Vir	d01  
+62012	Cen	w    
+61936	UMa	     
+62268	Cru	iot  
+62322	Mus	bet  
+62207	CVn	     
+62223	CVn	Y    
+62267	Vir	d02  
+62325	Vir	     
+62356	Com	     
+62434	Cru	bet  
+62394	Vir	     
+62443	Vir	     
+62478	Com	     
+62423	Dra	     
+62541	Com	     
+62516	CVn	     
+62576	Com	     
+63031	Oct	iot  
+62683	Cen	p    
+62757	Vir	     
+62763	Com	     
+62807	Com	     
+62867	Cen	e    
+62896	Cen	n    
+62931	Cru	kap  
+62875	Vir	     
+62886	Com	     
+63007	Cru	lam  
+63005	Cru	mu.02
+63003	Cru	mu.01
+62933	Vir	     
+62985	Vir	psi  
+62956	UMa	eps  
+63024	CVn	TU   
+63090	Vir	del  
+63210	Cen	H    
+63121	CVn	alf01
+63125	CVn	alf02
+63076	Dra	     
+63152	Dra	RY   
+63355	Com	     
+63414	Vir	k    
+63613	Mus	del  
+63462	Com	     
+63494	Vir	     
+63432	Dra	     
+63533	Com	     
+63503	UMa	     
+63608	Vir	eps  
+63724	Cen	ksi01
+63750	Vir	     
+63945	Cen	f    
+64004	Cen	ksi02
+63901	CVn	     
+63948	Com	     
+63950	Com	     
+64094	Mus	the  
+64022	Com	     
+64078	Vir	     
+64122	Vir	g    
+64166	Hya	psi  
+64224	Vir	     
+64238	Vir	the  
+64217	CVn	     
+64241	Com	alf  
+      	Com	alf  
+64246	CVn	     
+64407	Vir	     
+64394	Com	bet  
+64520	Vir	     
+64661	Mus	eta  
+64577	Vir	     
+64625	Vir	     
+64725	Vir	     
+64692	CVn	     
+64803	Cen	r    
+64792	Vir	e    
+64852	Vir	sig  
+64844	CVn	     
+64924	Vir	     
+64962	Hya	gam  
+64906	CVn	     
+65109	Cen	iot  
+65074	Vir	     
+65072	CVn	     
+65271	Cen	J    
+65241	Vir	     
+65387	Cen	m    
+65468	Mus	iot01
+65301	Vir	     
+65323	Vir	     
+65420	Vir	     
+65628	Mus	iot02
+65378	UMa	zet  
+      	UMa	zet  
+65474	Vir	alf  
+65477	UMa	g    
+65581	Vir	i    
+65639	Vir	     
+65810	Cen	K    
+65721	Vir	     
+65835	Hya	R    
+65790	Vir	     
+66753	Oct	kap  
+65892	Vir	     
+65936	Cen	d    
+66015	Vir	     
+66006	Vir	l    
+66091	Vir	     
+66098	Vir	h    
+      	Vir	S    
+66131	Vir	     
+66200	Vir	o    
+66247	Vir	y    
+66249	Vir	zet  
+66198	UMa	     
+66320	Vir	     
+66234	CVn	     
+66458	CVn	     
+66657	Cen	eps  
+66821	Cen	Q    
+66634	UMa	     
+66727	Boo	     
+66825	Cen	T    
+66763	Boo	     
+66803	Vir	m    
+66738	UMa	     
+66936	Vir	     
+67057	Vir	     
+67153	Cen	i    
+67139	Vir	     
+67234	Cen	M    
+67172	Vir	     
+67244	Cen	z    
+67288	Vir	     
+67239	Boo	     
+67275	Boo	tau  
+67231	UMa	     
+67464	Cen	nu.  
+67301	UMa	eta  
+67457	Cen	g    
+67472	Cen	mu.  
+67494	Vir	     
+67459	Boo	ups  
+      	CVn	R    
+67480	Boo	e    
+67703	Cen	N    
+67669	Cen	k    
+      	Cen	k    
+67786	Cen	h    
+67819	Cen	y    
+67787	Boo	     
+67627	Dra	i    
+68002	Cen	zet  
+67929	Vir	p    
+67927	Boo	eta  
+67848	UMa	     
+68092	Vir	     
+68103	Boo	     
+68245	Cen	phi  
+68282	Cen	ups01
+68269	Hya	     
+68276	Boo	     
+68390	Hya	     
+68523	Cen	ups02
+68815	Aps	the  
+68478	Boo	     
+68520	Vir	tau  
+68702	Cen	bet  
+68862	Cen	chi  
+68895	Hya	pi.  
+68933	Cen	the  
+68888	Vir	     
+68940	Vir	     
+68756	Dra	alf  
+69127	Vir	     
+69068	Boo	     
+69896	Aps	eta  
+69226	Boo	d    
+68956	UMi	     
+69415	Hya	     
+69427	Vir	kap  
+69112	UMi	     
+69536	Boo	     
+      	Cen	R    
+69481	Boo	kap01
+69483	Boo	kap02
+69612	Boo	     
+70248	Aps	eps  
+69701	Vir	iot  
+70638	Oct	del  
+69673	Boo	alf  
+69713	Boo	iot  
+69732	Boo	lam  
+69829	Vir	     
+69996	Lup	iot  
+69929	Vir	CS   
+70069	Cen	v    
+69974	Vir	lam  
+69879	Boo	A    
+69989	Boo	     
+70012	Vir	ups  
+70090	Cen	psi  
+70027	Boo	     
+70300	Cen	a    
+70306	Hya	k    
+70336	Lib	     
+70574	Lup	tau01
+70576	Lup	tau02
+70497	Boo	the  
+70602	Boo	f    
+70680	Vir	     
+70753	Hya	l    
+70755	Vir	phi  
+70794	Vir	     
+70791	Boo	g    
+71121	Lup	sig  
+71053	Boo	rho  
+70692	UMi	     
+71115	Boo	     
+71075	Boo	gam  
+71352	Cen	eta  
+71284	Boo	sig  
+71500	Lup	a    
+71536	Lup	rho  
+      	Boo	R    
+71683	Cen	alf  
+71908	Cir	alf  
+71618	Boo	     
+71860	Lup	alf  
+72370	Aps	alf  
+71865	Cen	b    
+71762	Boo	pi.01
+      	Boo	pi.02
+71795	Boo	zet  
+      	Boo	zet  
+71832	Boo	     
+71837	Boo	     
+71974	Lib	     
+72010	Cen	c01  
+71957	Vir	mu.  
+72104	Cen	c02  
+71995	Boo	W    
+72290	Lup	b    
+72197	Hya	m    
+72154	Vir	     
+72125	Boo	omi  
+72194	Lib	     
+72105	Boo	eps  
+      	Boo	eps  
+72220	Vir	     
+72323	Hya	     
+72357	Hya	     
+72378	Hya	     
+72489	Lib	mu.  
+73540	Oct	pi.01
+72571	Hya	E    
+72683	Lup	omi  
+72603	Lib	alf01
+72622	Lib	alf02
+72487	Boo	h    
+72631	Lib	     
+72524	Boo	     
+72965	Cir	zet  
+73223	Aps	R    
+72659	Boo	ksi  
+73771	Oct	pi.02
+72929	Lib	     
+73129	Cir	the  
+72934	Lib	ksi01
+73095	Lup	c    
+74296	Oct	ome  
+72607	UMi	bet  
+73133	Lib	ksi02
+73165	Lib	     
+73273	Lup	bet  
+73193	Ser	M    
+73334	Cen	kap  
+73284	Hya	     
+73249	Lib	     
+73310	Lib	     
+73473	Lib	del  
+73369	Boo	     
+73199	UMi	RR   
+73566	Hya	     
+73776	Cir	eta  
+73536	Ser	     
+73136	UMi	     
+73568	Boo	ome  
+73620	Vir	     
+73555	Boo	bet  
+73714	Lib	sig  
+73807	Lup	pi.  
+      	Lup	pi.  
+73745	Boo	psi  
+73440	UMi	     
+73695	Boo	i    
+73945	Lib	nu.  
+73953	Lib	     
+74117	Lup	lam  
+73841	Boo	k    
+73996	Boo	c    
+74087	Boo	b    
+74376	Lup	kap01
+74380	Lup	kap02
+74395	Lup	zet  
+74449	Lup	e    
+74392	Lib	iot  
+74493	Lib	     
+74500	Lib	     
+74604	Lup	i    
+74600	Lib	     
+74778	Cir	del  
+74837	Cir	eps  
+74824	Cir	bet  
+74946	TrA	gam  
+74649	Ser	     
+74596	Boo	chi  
+74689	Ser	     
+74666	Boo	del  
+74911	Lup	mu.  
+74785	Lib	bet  
+74857	Lup	f    
+74975	Ser	     
+75141	Lup	del  
+75206	Lup	nu.01
+75181	Lup	nu.02
+75110	Lib	     
+75118	Lib	omi  
+75323	Cir	gam  
+75177	Lup	phi01
+75264	Lup	eps  
+75049	CrB	omi  
+75119	Ser	     
+75304	Lup	phi02
+74793	UMi	     
+      	CrB	S    
+75294	Lib	     
+75230	Ser	     
+75178	Boo	     
+75439	Lup	ups  
+75342	Ser	     
+75379	Lib	eps  
+75501	Lup	k    
+75312	CrB	eta  
+      	CrB	eta  
+76996	Oct	rho  
+76013	Aps	kap01
+75411	Boo	mu.01
+75415	Boo	mu.02
+75097	UMi	gam  
+75530	Ser	tau01
+75152	UMi	     
+75730	Lib	     
+75458	Dra	iot  
+75761	Ser	     
+75695	CrB	bet  
+75848	Lib	     
+75944	Lib	     
+75973	Boo	nu.01
+76126	Lib	zet  
+76069	Ser	tau02
+76440	TrA	eps  
+76133	Ser	A01  
+76041	Boo	nu.02
+76259	Lib	     
+76297	Lup	gam  
+76219	Lib	     
+76127	CrB	the  
+76371	Lup	d    
+76750	Aps	kap02
+76333	Lib	gam  
+76276	Ser	del  
+      	Ser	del  
+76267	CrB	alf  
+76470	Lib	ups  
+76337	Ser	tau03
+76552	Lup	ome  
+76427	Ser	     
+76307	CrB	mu.  
+76425	Ser	     
+76423	Ser	tau04
+76424	Ser	tau05
+76600	Lib	tau  
+76628	Lib	     
+76705	Lup	psi01
+76534	Boo	phi  
+76742	Lib	     
+76829	Lup	g    
+76008	UMi	the  
+75809	UMi	pi.01
+75829	UMi	pi.01
+76669	CrB	zet01
+76669	CrB	zet02
+76939	Lup	h    
+76880	Lib	kap  
+76945	Lup	psi02
+76810	Ser	tau06
+76852	Ser	iot  
+76866	Ser	chi  
+76878	Ser	tau07
+77060	Lib	eta  
+76952	CrB	gam  
+77052	Ser	psi  
+77070	Ser	alf  
+77048	CrB	pi.  
+77111	Ser	tau08
+77227	Ser	A02  
+77233	Ser	bet  
+77257	Ser	lam  
+77336	Ser	ups  
+77464	Ser	     
+77450	Ser	kap  
+77516	Ser	mu.  
+77442	CrB	R    
+77634	Lup	chi  
+77635	Sco	b    
+76695	UMi	pi.02
+77578	Ser	ome  
+77512	CrB	del  
+77982	TrA	kap  
+77622	Ser	eps  
+      	Ser	R    
+77660	Ser	b    
+77952	TrA	bet  
+77661	Ser	rho  
+77655	CrB	kap  
+77811	Lib	lam  
+77055	UMi	zet  
+77840	Sco	A    
+77853	Lib	the  
+77801	Ser	     
+77909	Sco	     
+77760	Her	chi  
+77939	Lib	     
+77984	Sco	     
+77910	Ser	     
+78105	Lup	ksi01
+78106	Lup	ksi02
+78104	Sco	rho  
+77907	Her	     
+78072	Ser	gam  
+78012	CrB	lam  
+77986	Her	     
+78132	Ser	phi  
+78207	Lib	     
+78265	Sco	pi.  
+78159	CrB	eps  
+78384	Lup	eta  
+78401	Sco	del  
+78400	Lib	     
+      	CrB	T    
+78436	Lib	     
+78662	Nor	iot01
+78639	Nor	eta  
+78481	Her	r    
+78459	CrB	rho  
+78493	CrB	iot  
+78554	Ser	pi.  
+78685	Ser	     
+78727	Sco	ksi  
+      	Sco	ksi  
+78914	Nor	del  
+78574	Her	X    
+78592	Her	ups  
+78820	Sco	bet01
+78821	Sco	bet02
+78527	Dra	the  
+78918	Lup	the  
+78933	Sco	ome01
+79153	Nor	iot02
+78990	Sco	ome02
+79005	Sco	     
+79007	Ser	     
+79047	Ser	     
+79045	Her	kap  
+79043	Her	kap  
+79072	Ser	     
+79102	Her	     
+79119	CrB	tau  
+79497	Nor	zet  
+80047	Aps	del01
+79490	Nor	     
+80057	Aps	del02
+79101	Her	phi  
+79509	Nor	kap  
+79404	Sco	c02  
+79399	Sco	c01  
+      	Sco	nu.  
+79374	Sco	nu.  
+79664	TrA	del  
+79375	Sco	psi  
+79387	Sco	     
+78661	UMi	     
+79332	Her	q    
+79248	Her	     
+79349	Her	     
+79653	Nor	the  
+79488	Her	     
+79540	Sco	chi  
+79492	Ser	     
+79593	Oph	del  
+79790	Nor	gam01
+79672	Sco	     
+79634	Her	     
+79607	CrB	sig  
+      	CrB	sig  
+79666	Her	     
+79881	Sco	d    
+79963	Nor	lam  
+80000	Nor	gam02
+79757	CrB	ups  
+79882	Oph	eps  
+79280	UMi	     
+79889	Her	     
+80079	Sco	omi  
+79420	UMi	     
+80112	Sco	sig  
+79992	Her	tau  
+80179	Ser	sig  
+80170	Her	gam  
+80686	TrA	zet  
+81065	Aps	gam  
+80181	CrB	ksi  
+80343	Oph	psi  
+80197	CrB	nu.01
+80214	CrB	nu.02
+80645	TrA	iot  
+80247	Her	     
+80351	Her	o    
+80473	Oph	rho  
+      	Oph	rho  
+80582	Nor	eps  
+79822	UMi	eta  
+80463	Her	ome  
+80569	Oph	chi  
+      	Her	U    
+80460	Her	     
+80628	Oph	ups  
+80331	Dra	eta  
+80763	Sco	alf  
+80815	Sco	i    
+80911	Sco	N    
+80704	Her	g    
+80894	Oph	phi  
+80816	Her	bet  
+80883	Oph	lam  
+81252	TrA	the  
+80843	Her	s    
+80975	Oph	ome  
+81122	Nor	mu.  
+80809	Her	     
+81007	Her	n    
+80927	Her	     
+81008	Her	h    
+80650	Dra	A    
+81852	Aps	bet  
+81066	Her	     
+81266	Sco	tau  
+81304	Sco	H    
+81126	Her	sig  
+81300	Oph	     
+81710	TrA	eta01
+81589	Ara	R    
+81377	Oph	zet  
+81290	Dra	     
+81292	Dra	     
+      	Dra	     
+81641	Her	     
+81634	Her	     
+81724	Sco	     
+81497	Her	     
+81734	Oph	     
+81693	Her	zet  
+81729	Her	     
+82273	TrA	alf  
+81833	Her	eta  
+81991	Her	     
+81660	Dra	g    
+82037	Oph	     
+82140	Sco	     
+82073	Her	i    
+82363	Ara	eta  
+82162	Oph	     
+82216	Her	l    
+      	Oph	     
+82396	Sco	eps  
+82369	Oph	     
+82514	Sco	mu.01
+82324	Her	     
+82402	Her	k    
+82545	Sco	mu.02
+82321	Her	     
+82480	Oph	     
+82422	Her	     
+82671	Sco	zet01
+      	Her	S    
+82526	Her	     
+82504	Her	     
+82729	Sco	zet02
+      	Sco	RS   
+82587	Her	     
+82730	Oph	     
+82673	Oph	iot  
+82912	Sco	RR   
+83081	Ara	zet  
+82960	Sco	     
+82925	Oph	     
+82780	Her	     
+82802	Her	     
+83153	Ara	eps01
+83000	Oph	kap  
+82987	Her	     
+83196	Oph	     
+83431	Ara	eps02
+82860	Dra	h    
+83262	Oph	     
+82898	Dra	     
+83331	Oph	     
+82080	UMi	eps  
+83207	Her	eps  
+83313	Her	d    
+83574	Sco	k    
+83430	Oph	     
+83462	Her	     
+83613	Her	     
+      	Oph	R    
+83608	Dra	mu.  
+      	Dra	mu.  
+83838	Her	c    
+84012	Oph	eta  
+84143	Sco	eta  
+84054	Her	     
+84177	Oph	     
+83895	Dra	zet  
+84405	Oph	A    
+      	Oph	A    
+84345	Her	alf01
+      	Her	alf02
+84379	Her	del  
+84979	Aps	iot  
+84500	Oph	U    
+84514	Oph	     
+84969	Aps	zet  
+84380	Her	pi.  
+84626	Oph	omi  
+84625	Oph	omi  
+84573	Her	u    
+84671	Oph	e    
+84606	Her	e    
+84893	Oph	ksi  
+84880	Ser	nu.  
+84496	Dra	VW   
+85035	Sco	V636 
+85079	Ara	iot  
+84970	Oph	the  
+84887	Her	     
+84862	Her	w    
+85084	Oph	     
+85258	Ara	bet  
+85267	Ara	gam  
+84835	Her	     
+85312	Ara	kap  
+85157	Her	     
+85112	Her	rho  
+      	Her	rho  
+85340	Oph	b    
+85423	Oph	d    
+85365	Oph	     
+85355	Oph	sig  
+85727	Ara	del  
+85696	Sco	ups  
+85379	Her	x    
+85792	Ara	alf  
+85755	Oph	c    
+85693	Her	lam  
+85927	Sco	lam  
+85790	Her	     
+85670	Dra	bet  
+86092	Ara	sig  
+86060	Oph	     
+86170	Sco	Q    
+85998	Oph	f    
+86305	Ara	pi.  
+86228	Sco	the  
+85819	Dra	nu.01
+85829	Dra	nu.02
+86032	Oph	alf  
+86263	Ser	ksi  
+85805	Dra	f    
+86284	Oph	mu.  
+86486	Ara	lam  
+86254	Her	     
+86036	Dra	     
+86182	Her	y    
+85852	Dra	     
+86670	Sco	kap  
+86565	Ser	omi  
+86929	Pav	eta  
+86796	Ara	mu.  
+86414	Her	iot  
+86736	Oph	     
+86201	Dra	ome  
+86667	Her	     
+86742	Oph	bet  
+86731	Her	     
+86831	Oph	     
+87073	Sco	iot01
+87072	Sgr	X    
+87314	Ara	ups01
+86974	Her	mu.  
+87108	Oph	gam  
+87261	Sco	G    
+87294	Sco	iot02
+87379	Ara	ups02
+86614	Dra	psi  
+86620	Dra	psi  
+87194	Her	     
+87212	Dra	     
+87495	Oph	Y    
+87280	Her	z    
+87706	Oph	     
+87563	Her	f    
+87747	Her	     
+87585	Dra	ksi  
+87808	Her	the  
+88048	Oph	nu.  
+88116	Sgr	     
+87234	Dra	     
+87850	Her	OP   
+87933	Her	ksi  
+87833	Dra	gam  
+87998	Her	nu.  
+88175	Ser	zet  
+88149	Oph	     
+88128	Her	     
+88192	Oph	     
+88258	Sgr	     
+92824	Oct	chi  
+88290	Oph	     
+88380	Sgr	     
+87728	Dra	     
+88267	Her	     
+      	Her	     
+88404	Oph	tau  
+      	Oph	tau  
+88469	Sgr	     
+88331	Her	     
+88346	Her	     
+88567	Sgr	W    
+88714	Ara	the  
+88866	Pav	pi.  
+88635	Sgr	gam  
+88522	Oph	V986 
+88601	Oph	p    
+89042	Pav	iot  
+88657	Her	     
+88765	Oph	     
+88771	Oph	     
+88745	Her	b    
+88794	Her	omi  
+88818	Her	     
+88817	Her	     
+89112	Tel	eps  
+88886	Her	     
+85822	UMi	del  
+88899	Her	     
+88964	Oph	     
+89153	Sgr	     
+88127	Dra	     
+88136	Dra	     
+85699	UMi	     
+89341	Sgr	mu.  
+89172	Her	A    
+89369	Sgr	     
+89440	Sgr	     
+89439	Sgr	     
+90133	Oct	phi  
+89567	Sgr	     
+89642	Sgr	eta  
+89637	Sgr	RS   
+89348	Dra	     
+90098	Pav	ksi  
+89931	Sgr	del  
+89773	Her	     
+89968	Sgr	Y    
+89448	Dra	     
+89918	Oph	     
+89861	Her	     
+89962	Ser	eta  
+89826	Lyr	kap  
+89925	Her	     
+89935	Her	t    
+90185	Sgr	eps  
+89594	Dra	     
+90135	Sct	zet  
+90260	Sgr	     
+90139	Her	     
+90289	Sgr	     
+90422	Tel	alf  
+90191	Lyr	mu.  
+90568	Tel	zet  
+90496	Sgr	lam  
+90797	Pav	nu.  
+90441	Ser	d    
+      	Ser	d    
+89908	Dra	phi  
+90156	Dra	b    
+89937	Dra	chi  
+90595	Sct	gam  
+90830	Tel	del01
+90642	Ser	c    
+90853	Tel	del02
+90344	Dra	     
+90982	CrA	the  
+90969	CrA	kap01
+90968	CrA	kap02
+90844	Ser	     
+91004	Sgr	     
+91066	Sgr	     
+91117	Sct	alf  
+90905	Dra	d    
+91792	Pav	zet  
+91322	Ser	e    
+91262	Lyr	alf  
+91373	Lyr	XY   
+91689	Sgr	     
+91726	Sct	del  
+91875	CrA	lam  
+91845	Sct	eps  
+92294	Pav	the  
+92041	Sgr	phi  
+91975	Aql	     
+92111	Sgr	     
+91755	Dra	c    
+92226	CrA	mu.  
+91919	Lyr	eps01
+      	Lyr	eps01
+91926	Lyr	eps02
+      	Lyr	eps02
+91971	Lyr	zet01
+91973	Lyr	zet02
+92117	Aql	     
+92043	Her	     
+92308	CrA	eta01
+92175	Sct	bet  
+92202	Sct	R    
+92382	CrA	eta02
+92161	Her	     
+92609	Pav	lam  
+92390	Sgr	     
+92646	Tel	kap  
+92480	Sgr	     
+92204	Dra	     
+92398	Lyr	nu.01
+92524	Aql	     
+92405	Lyr	nu.  
+92420	Lyr	bet  
+      	Lyr	bet  
+      	Lyr	bet  
+93015	Pav	kap  
+92614	Her	     
+92747	Sgr	     
+92761	Sgr	nu.01
+92845	Sgr	nu.02
+92855	Sgr	sig  
+92112	Dra	     
+92512	Dra	omi  
+93163	Pav	ome  
+92728	Lyr	del01
+92818	Her	     
+      	Her	     
+93148	Tel	lam  
+92872	Ser	     
+92791	Lyr	del02
+92946	Ser	the01
+92951	Ser	the02
+93057	Sgr	ksi01
+93026	Sct	eta  
+93085	Sgr	ksi02
+93174	CrA	eps  
+92862	Lyr	R    
+93051	Ser	     
+93124	Aql	FF   
+93179	Aql	     
+93203	Aql	     
+92997	Dra	     
+93244	Aql	eps  
+93194	Lyr	gam  
+92782	Dra	ups  
+93542	CrA	zet  
+93279	Lyr	lam  
+93429	Aql	i    
+93506	Sgr	zet  
+93526	Aql	g    
+93815	Tel	rho  
+93408	Lyr	     
+93683	Sgr	omi  
+93340	Dra	     
+93717	Aql	h    
+93825	CrA	gam  
+      	CrA	gam  
+104382	Oct	sig  
+93864	Sgr	tau  
+93747	Aql	zet  
+93805	Aql	lam  
+94005	CrA	del  
+      	Aql	R    
+93867	Aql	     
+93713	Dra	     
+94114	CrA	alf  
+94160	CrA	bet  
+93917	Lyr	     
+93903	Lyr	iot  
+94141	Sgr	pi.  
+94068	Aql	     
+94724	Pav	tau  
+94385	Aql	     
+94311	Lyr	     
+94477	Aql	     
+94140	Dra	     
+94643	Sgr	psi  
+94302	Dra	     
+94730	Sgr	RY   
+94481	Lyr	eta  
+94620	Sge	     
+94727	Aql	     
+94820	Sgr	d    
+94703	Vul	     
+94490	Dra	     
+94376	Dra	del  
+94083	Dra	     
+94713	Lyr	the  
+94834	Aql	ome01
+94827	Vul	     
+94885	Aql	     
+94913	Aql	     
+94910	Sge	U    
+94779	Cyg	kap  
+95261	Tel	eta  
+94982	Aql	A    
+95002	Aql	ome02
+95066	Aql	f    
+95073	Aql	d    
+95241	Sgr	bet01
+95168	Sgr	rho01
+95176	Sgr	ups  
+95294	Sgr	bet02
+95188	Sgr	rho02
+95347	Sgr	alf  
+94648	Dra	tau  
+95260	Vul	     
+95477	Sgr	chi01
+95486	Sgr	chi02
+95503	Sgr	chi03
+95398	Sge	     
+95081	Dra	pi.  
+95372	Cyg	     
+95435	Sge	     
+95447	Aql	b    
+95564	Sgr	     
+95501	Aql	del  
+95498	Vul	     
+95585	Aql	nu.  
+95560	Vul	     
+95932	Tel	mu.  
+84535	UMi	lam  
+95556	Cyg	     
+95793	Aql	c    
+95820	Aql	U    
+95771	Vul	alf  
+95785	Vul	     
+95656	Cyg	     
+95818	Vul	     
+95154	Dra	UX   
+95937	Aql	e    
+95947	Cyg	bet01
+95951	Cyg	bet02
+95853	Cyg	iot  
+96341	Tel	iot  
+96052	Cyg	     
+96229	Aql	mu.  
+96327	Aql	     
+96406	Sgr	h01  
+96275	Vul	     
+96465	Sgr	h02  
+96302	Cyg	     
+96483	Aql	kap  
+96468	Aql	iot  
+96387	Cyg	     
+96556	Aql	     
+96100	Dra	sig  
+96516	Sge	eps  
+96441	Cyg	the  
+96729	Sgr	     
+      	Cyg	R    
+96665	Aql	sig  
+96808	Sgr	e01  
+96683	Cyg	phi  
+96757	Sge	alf  
+96807	Aql	     
+96693	Cyg	     
+96840	Aql	QS   
+96837	Sge	bet  
+96950	Sgr	e02  
+96931	Aql	     
+96957	Aql	chi  
+      	Aql	chi  
+96895	Cyg	c    
+96901	Cyg	c    
+97077	Vul	     
+97421	Tel	nu.  
+97139	Aql	psi  
+97290	Sgr	f    
+97118	Cyg	     
+      	Cyg	RT   
+97229	Aql	ups  
+97278	Aql	gam  
+97165	Cyg	del  
+97295	Cyg	     
+97365	Sge	del  
+      	Sge	del  
+97473	Aql	pi.  
+      	Aql	pi.  
+97496	Sge	zet  
+97650	Aql	     
+97649	Aql	alf  
+97675	Aql	omi  
+97783	Sgr	     
+97629	Cyg	chi  
+97679	Vul	     
+97630	Cyg	     
+97634	Cyg	V380 
+97804	Aql	eta  
+97796	Sge	     
+97635	Cyg	d    
+98032	Sgr	iot  
+97433	Dra	eps  
+97928	Aql	     
+98495	Pav	eps  
+97886	Vul	     
+97966	Aql	     
+97967	Aql	     
+97938	Aql	ksi  
+97980	Aql	     
+98066	Sgr	ome  
+98036	Aql	bet  
+98478	Pav	mu.01
+98162	Sgr	b01  
+97870	Cyg	     
+98085	Sge	S    
+98103	Aql	phi  
+98624	Pav	mu.02
+98068	Cyg	     
+98258	Sgr	g    
+98110	Cyg	eta  
+98353	Sgr	A    
+98055	Cyg	psi  
+98234	Sge	     
+98412	Sgr	the01
+98421	Sgr	the02
+98337	Sge	gam  
+98375	Vul	     
+98438	Sge	     
+98425	Cyg	     
+98633	Sgr	     
+98688	Sgr	c    
+98543	Vul	     
+98636	Vul	     
+98571	Cyg	e    
+98754	Sge	     
+99240	Pav	del  
+98844	Aql	     
+98823	Aql	tau  
+98819	Sge	     
+99120	Tel	ksi  
+98953	Sgr	     
+98583	Dra	e    
+98920	Sge	eta  
+98658	Dra	     
+98702	Dra	rho  
+98401	Dra	     
+99080	Vul	     
+99031	Cyg	b01  
+99171	Aql	     
+98962	Dra	     
+99352	Sge	the  
+      	Sge	the  
+99303	Cyg	b02  
+99473	Aql	the  
+99404	Vul	     
+99529	Cap	ksi01
+99572	Cap	ksi  
+99518	Vul	     
+99531	Vul	     
+99631	Aql	     
+99742	Aql	rho  
+99500	Dra	     
+99639	Cyg	     
+99738	Vul	     
+99675	Cyg	omi01
+99770	Cyg	b03  
+99918	Cap	     
+99655	Cyg	     
+99853	Vul	     
+99874	Vul	     
+99913	Sge	     
+100027	Cap	alf01
+100062	Cap	     
+99255	Cep	kap  
+99848	Cyg	omi02
+99951	Vul	     
+100064	Cap	alf02
+100195	Cap	sig  
+100044	Cyg	P    
+100108	Cyg	     
+100122	Cyg	     
+100310	Cap	nu.  
+100325	Cap	bet02
+100345	Cap	bet  
+100469	Sgr	kap01
+      	Cyg	U    
+100591	Sgr	kap02
+100435	Vul	     
+100751	Pav	alf  
+100221	Dra	     
+100453	Cyg	gam  
+100261	Dra	AC   
+100587	Cyg	     
+100881	Cap	pi.  
+100977	Aql	     
+101027	Cap	rho  
+100907	Cyg	     
+100859	Cyg	     
+101120	Cap	omi  
+101123	Cap	omi  
+101101	Aql	     
+101076	Cyg	     
+101067	Cyg	     
+101160	Del	     
+101138	Cyg	ome01
+101477	Mic	nu.  
+101214	Cyg	     
+101612	Pav	phi01
+101093	Cep	the  
+101243	Cyg	ome02
+101421	Del	eps  
+101483	Del	eta  
+101773	Pav	rho  
+102162	Oct	mu.01
+102125	Oct	mu.02
+101474	Cyg	     
+      	Cyg	     
+101772	Ind	alf  
+101589	Del	zet  
+101692	Aql	     
+101751	Cap	tau01
+101641	Vul	     
+101983	Pav	phi02
+101260	Dra	     
+101716	Vul	     
+102157	Pav	ups  
+101769	Del	bet  
+101800	Del	iot  
+101847	Aql	l    
+101765	Cyg	     
+101923	Cap	tau  
+101867	Vul	     
+101882	Del	the  
+101868	Vul	     
+101916	Del	kap  
+101936	Aqr	     
+101984	Cap	ups  
+100965	Dra	     
+101958	Del	alf  
+101082	Dra	     
+102395	Pav	bet  
+102080	Del	     
+102333	Ind	eta  
+102066	Cyg	     
+      	Cyg	     
+102098	Cyg	alf  
+102281	Del	del  
+102177	Cyg	     
+102276	Cyg	X    
+102773	Pav	sig  
+102485	Cap	psi  
+102487	Cap	     
+102388	Vul	     
+102440	Del	U    
+102453	Cyg	     
+102693	Mic	iot  
+102253	Cep	     
+102531	Del	gam01
+102532	Del	gam02
+102488	Cyg	eps  
+102618	Aqr	eps  
+102624	Aqr	k    
+102790	Ind	zet  
+102633	Del	     
+102431	Cep	ups01
+102571	Cyg	T    
+102422	Cep	eta  
+102589	Cyg	lam  
+102831	Mic	alf  
+102950	Ind	iot  
+102805	Del	     
+102819	Del	     
+102724	Cyg	     
+102989	Mic	bet  
+102978	Cap	ome  
+102945	Aqr	     
+102843	Cyg	     
+103005	Aqr	     
+103227	Ind	bet  
+102949	Vul	T    
+103045	Aqr	mu.  
+103004	Vul	     
+103226	Cap	     
+103089	Cyg	     
+102208	Dra	     
+103191	Vul	BW   
+103200	Vul	     
+103294	Del	     
+103298	Del	     
+103401	Aqr	     
+104043	Oct	alf  
+103413	Cyg	nu.  
+103527	Del	     
+103511	Vul	     
+103616	Cap	     
+103569	Equ	eps  
+103738	Mic	gam  
+103682	Aqr	     
+103632	Cyg	f01  
+103882	Mic	zet  
+103813	Equ	lam  
+103732	Cyg	     
+104085	Ind	mu.  
+103981	Aqr	     
+      	Aqr	     
+104019	Cap	eta  
+104031	Equ	     
+104177	Mic	eta  
+104148	Mic	del  
+104139	Cap	the  
+104174	PsA	     
+104101	Equ	     
+104060	Cyg	ksi  
+104234	Cap	A    
+104185	Cyg	DT   
+104214	Cyg	     
+104217	Cyg	     
+104365	Cap	chi  
+104194	Cyg	f02  
+104452	Cap	     
+104755	Pav	omi  
+104459	Aqr	nu.  
+104371	Cyg	V389 
+104521	Equ	gam  
+104538	Equ	     
+104750	PsA	     
+104105	Dra	     
+      	Cep	T    
+104732	Cyg	zet  
+104858	Equ	del  
+104963	Cap	phi  
+104974	Cap	     
+104887	Cyg	tau  
+104987	Equ	alf  
+105140	Mic	eps  
+105143	Cap	     
+105168	Cap	     
+105319	Ind	the  
+105164	Aqr	     
+105102	Cyg	sig  
+105138	Cyg	ups  
+105382	Mic	the01
+105186	Cyg	A    
+105678	Pav	Y    
+105412	Aqr	     
+105199	Cep	alf  
+105413	Equ	     
+105411	Vul	     
+105515	Cap	iot  
+105268	Cep	     
+105502	Peg	     
+105574	Aqr	     
+105570	Equ	bet  
+105696	Mic	the02
+105858	Pav	gam  
+105665	Cap	     
+105668	Aqr	     
+105841	Ind	gam  
+105729	Aqr	     
+105761	Aqr	     
+106044	Pav	SX   
+105767	Aqr	     
+105881	Cap	zet  
+105928	Cap	     
+105811	Cyg	     
+106039	Cap	b    
+106067	PsA	     
+105942	Cyg	     
+105966	Vul	     
+106140	Peg	     
+105972	Cep	     
+106093	Cyg	g    
+106327	Gru	ksi  
+106340	PsA	     
+106278	Aqr	bet  
+106032	Cep	bet  
+106559	Cap	     
+106481	Cyg	rho  
+106654	PsA	     
+107089	Oct	nu.  
+106551	Cyg	     
+106703	PsA	     
+106723	Cap	eps  
+106642	Cyg	W    
+106786	Aqr	ksi  
+106783	Peg	     
+106711	Cyg	     
+106787	Peg	     
+106856	Peg	     
+106752	Cyg	CP   
+106942	Aqr	     
+106944	Aqr	d    
+106985	Cap	gam  
+106801	Cep	     
+107843	Oct	lam  
+107095	Cap	     
+106999	Cyg	     
+107128	Cap	     
+107144	Aqr	     
+107188	Cap	kap  
+107151	Peg	     
+107097	Cyg	     
+107232	Cap	     
+107129	Cyg	V460 
+107162	Cyg	     
+107136	Cyg	pi.01
+107302	Cap	     
+107380	PsA	iot  
+107253	Cyg	     
+107315	Peg	eps  
+107310	Cyg	mu.01
+      	Cyg	mu.02
+107382	Cap	c    
+107348	Peg	     
+107354	Peg	kap  
+107259	Cep	mu.  
+107119	Cep	     
+107487	Cap	     
+107517	Cap	lam  
+107472	Peg	     
+107556	Cap	del  
+107230	Dra	     
+107608	PsA	the  
+107575	Peg	     
+107835	Ind	omi  
+107418	Cep	nu.  
+107533	Cyg	pi.02
+107586	Cep	     
+107763	Peg	     
+107788	Peg	     
+108036	Cap	mu.  
+108085	Gru	gam  
+107975	Peg	     
+108022	Peg	     
+108281	Ind	pi.  
+108431	Ind	del  
+108478	Ind	kap  
+108165	Cep	     
+108339	Peg	     
+108317	Cep	VV   
+108612	Peg	     
+108661	PsA	eta  
+108870	Ind	eps  
+108691	Aqr	     
+108693	Peg	     
+108699	Peg	     
+108797	Aqr	     
+108535	Cep	     
+108868	Aqr	     
+108874	Aqr	omi  
+108875	Peg	     
+108952	PsA	     
+108772	Cep	     
+109081	Ind	kap  
+108991	Aqr	     
+109111	Gru	lam  
+108925	Cep	     
+109068	Peg	nu.  
+109074	Aqr	alf  
+108924	Cep	     
+108917	Cep	ksi  
+      	Cep	ksi  
+109139	Aqr	iot  
+109056	Peg	     
+109268	Gru	alf  
+109005	Cep	     
+109017	Cep	     
+109176	Peg	iot  
+109285	PsA	mu.  
+109289	PsA	ups  
+109240	Peg	     
+109332	Aqr	     
+109422	PsA	tau  
+109303	Lac	AR   
+109352	Peg	pi.01
+109427	Peg	the  
+109460	Aqr	     
+109472	Aqr	e    
+109410	Peg	pi.  
+109458	Peg	     
+109624	Aqr	     
+109492	Cep	zet  
+109400	Cep	     
+109556	Cep	lam  
+110078	Oct	psi  
+109789	PsA	lam  
+109786	Aqr	     
+110256	Oct	eps  
+109908	Gru	mu.01
+109973	Gru	mu.02
+109857	Cep	eps  
+110000	Aqr	     
+109937	Lac	     
+110003	Aqr	the  
+110130	Tuc	alf  
+110023	Aqr	     
+111196	Oct	ups  
+110179	Aqr	     
+110103	Cep	     
+110273	Aqr	rho  
+110298	Peg	     
+110618	Ind	nu.  
+110391	Aqr	     
+110395	Aqr	gam  
+110386	Peg	     
+110478	Gru	pi.01
+110371	Peg	     
+110351	Lac	     
+110506	Gru	pi.02
+110529	Aqr	     
+110548	Peg	     
+110578	Aqr	     
+110602	Aqr	     
+110504	Cep	RW   
+110538	Lac	bet  
+110672	Aqr	pi.  
+110838	Tuc	del  
+110609	Lac	     
+110778	Aqr	f    
+      	Aqr	f    
+110785	Peg	     
+110882	Peg	     
+110936	Gru	nu.  
+110997	Gru	del01
+110960	Aqr	zet01
+      	Aqr	zet02
+111043	Gru	del02
+110817	Cep	     
+110986	Peg	     
+111062	Peg	     
+111086	Aqr	     
+111138	PsA	zet  
+110991	Cep	del  
+110988	Cep	del  
+111022	Lac	     
+111123	Aqr	sig  
+111068	Peg	     
+111188	PsA	bet  
+110787	Cep	     
+111104	Lac	     
+111310	Tuc	nu.  
+111200	Aqr	     
+111169	Lac	alf  
+111278	Peg	     
+111394	Aqr	     
+111056	Cep	rho  
+111449	Aqr	ups  
+111497	Aqr	eta  
+111594	Gru	sig01
+111643	Gru	sig02
+111546	Lac	     
+111544	Lac	     
+111710	Aqr	kap  
+111674	Lac	     
+111532	Cep	     
+111810	Peg	     
+111841	Lac	     
+111884	Peg	     
+111797	Cep	     
+111954	PsA	eps  
+112405	Oct	bet  
+111944	Lac	     
+112029	Peg	zet  
+112122	Gru	bet  
+112102	PsA	     
+112031	Lac	     
+112051	Peg	omi  
+112203	Gru	rho  
+112179	Aqr	     
+112211	Aqr	g    
+112158	Peg	eta  
+112374	Gru	eta  
+112242	Lac	     
+112358	Peg	     
+112781	Oct	ksi  
+112447	Peg	ksi  
+112440	Peg	lam  
+112529	Aqr	     
+112542	Aqr	tau01
+112623	Gru	eps  
+112615	Aqr	     
+112716	Aqr	tau02
+112748	Peg	mu.  
+112778	Lac	     
+112862	PsA	     
+112724	Cep	iot  
+112948	PsA	gam  
+112935	Peg	sig  
+112961	Aqr	lam  
+112917	Lac	     
+113044	Gru	tau01
+113137	Ind	rho  
+113031	Aqr	     
+113136	Aqr	del  
+113127	Aqr	     
+113148	Aqr	     
+113191	Gru	tau02
+113190	Gru	tau02
+113167	Psc	     
+113186	Peg	rho  
+113246	PsA	del  
+113307	Gru	tau03
+113281	Lac	     
+113368	PsA	alf  
+113357	Peg	     
+113327	Lac	EW   
+113503	Peg	     
+113521	Psc	     
+113638	Gru	zet  
+113610	Psc	     
+113674	Aqr	     
+113726	And	omi  
+113781	Aqr	     
+113788	And	     
+113860	PsA	pi.  
+113889	Psc	bet  
+113957	Gru	kap  
+113881	Peg	bet  
+113919	And	     
+113963	Peg	alf  
+113996	Aqr	h    
+114131	Gru	the  
+114119	Aqr	c01  
+114132	Gru	ups  
+114144	Peg	     
+114155	Peg	     
+114104	Cas	     
+114200	And	     
+114210	And	     
+114273	Psc	A    
+114341	Aqr	c02  
+114347	Peg	     
+114375	Aqr	c03  
+114222	Cep	pi.  
+114421	Gru	iot  
+114389	Peg	     
+114365	Cas	     
+114430	And	     
+114520	Peg	     
+114526	Peg	     
+114570	And	     
+114724	Aqr	phi  
+114855	Aqr	psi01
+114844	Peg	     
+114996	Tuc	gam  
+114939	Aqr	chi  
+114971	Psc	gam  
+115033	Aqr	psi02
+115054	Gru	phi  
+115022	And	     
+115836	Oct	tau  
+115102	Scl	gam  
+115065	And	     
+115115	Aqr	psi03
+115126	Aqr	     
+115142	Aqr	     
+115088	Cep	omi  
+115152	And	     
+115191	And	     
+115227	Psc	b    
+115250	Peg	tau  
+115271	Peg	     
+115280	And	     
+115355	Peg	     
+115404	Aqr	     
+115407	Peg	     
+115438	Aqr	b01  
+115444	Peg	     
+115591	Peg	     
+115590	Cas	     
+115623	Peg	ups  
+115669	Aqr	b02  
+115713	Gru	omi  
+115738	Psc	kap  
+115768	Psc	     
+115755	And	     
+115806	Peg	     
+115830	Psc	the  
+115919	Peg	     
+115990	Cas	AR   
+116076	And	     
+116118	Aqr	     
+116146	Psc	     
+116231	Scl	bet  
+116247	Aqr	b03  
+116264	Peg	     
+116310	Peg	     
+116323	Psc	     
+116354	And	     
+116355	Peg	     
+116389	Phe	iot  
+116422	Psc	     
+116495	Psc	     
+116592	Peg	     
+116584	And	lam  
+116611	Peg	     
+116631	And	iot  
+116737	Phe	the  
+116709	And	     
+116758	Aqr	ome01
+116771	Psc	iot  
+116727	Cep	gam  
+116820	Scl	mu.  
+116805	And	kap  
+116889	Aqr	A01  
+116904	Aqr	A02  
+116901	Aqr	A02  
+116928	Psc	lam  
+116971	Aqr	ome02
+116972	Peg	     
+117020	Peg	     
+      	Aqr	R    
+117073	Peg	     
+117089	Aqr	i01  
+117218	Aqr	i02  
+117221	And	psi  
+117245	Psc	TX   
+117315	Phe	sig  
+117301	Cas	tau  
+117375	Psc	     
+117452	Scl	del  
+117447	Cas	     
+117491	Psc	     
+117500	Peg	     
+117628	Peg	     
+117629	Aqr	i03  
+117689	Oct	gam01
+117683	Psc	     
+117718	Peg	phi  
+117730	Peg	     
+117756	Aqr	h    
+117761	Psc	     
+117774	Psc	     
+117863	Cas	rho  
+117927	Psc	     
+117957	Cas	V373 
+118027	Cep	V    
+118114	Oct	gam02
+118121	Tuc	eta  
+118131	Peg	psi  
+118178	Cet	     
+      	Cas	R    
+118209	Psc	     
+118234	Phe	pi.  
+118243	Cas	sig  
+118268	Psc	ome  
+118322	Tuc	eps  
+63	And	CG   
+88	Phe	tau  
+122	Oct	the  
+145	Psc	     
+171	Peg	     
+154	Psc	     
+183	Scl	zet  
+186	Psc	     
+194	Psc	c    
+301	Cet	     
+330	Cas	     
+355	Cet	     
+30756	Gem	     
+      	Gem	nu.  
