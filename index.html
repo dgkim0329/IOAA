@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Setup</title>
+    <style>
+        html, body {
+            margin: 0;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f0f0;
+        }
+        #controls {
+            padding: 20px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #controls label {
+            font-size: 1.2em;
+            display: block;
+            margin-bottom: 10px;
+        }
+        #controls input[type="range"] {
+            width: 80%;
+            margin-bottom: 20px;
+        }
+        #controls button {
+            font-size: 1.5em;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        #controls button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="controls">
+        <label for="missingStarCount">Number of Missing Stars: <span id="missingStarCountLabel">5</span></label>
+        <input type="range" id="missingStarCount" min="3" max="7" value="5">
+
+        <label for="limitingMagnitude">Limiting Magnitude: <span id="limitingMagnitudeLabel">3</span></label>
+        <input type="range" id="limitingMagnitude" min="2" max="5" step="0.1" value="3">
+
+        <button id="startButton">Start</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const missingStarCountLabel = document.getElementById('missingStarCountLabel');
+            const limitingMagnitudeLabel = document.getElementById('limitingMagnitudeLabel');
+            const missingStarCountSlider = document.getElementById('missingStarCount');
+            const limitingMagnitudeSlider = document.getElementById('limitingMagnitude');
+            const startButton = document.getElementById('startButton');
+            
+            // Update labels when sliders change
+            missingStarCountSlider.addEventListener('input', () => {
+                missingStarCountLabel.textContent = missingStarCountSlider.value;
+            });
+            limitingMagnitudeSlider.addEventListener('input', () => {
+                limitingMagnitudeLabel.textContent = limitingMagnitudeSlider.value;
+            });
+            
+            // On button click, redirect to missingstars.html with query parameters
+            startButton.addEventListener('click', () => {
+                const missingStarCount = missingStarCountSlider.value;
+                const limitingMagnitude = limitingMagnitudeSlider.value;
+
+                // Redirect with parameters in the URL
+                window.location.href = `missingstars.html?missingStars=${missingStarCount}&limitingMag=${limitingMagnitude}`;
+            });
+        });
+    </script>
+</body>
+</html>

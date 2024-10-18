@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missing Stars</title>
+    <script type="module" src="./main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        html, body {
+            margin: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: black;
+        }
+        #skyCanvas {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #settingsButton:hover i {
+            color: #f2f2f2;
+        }
+
+        #exitButton:hover {
+            background-color: #6e1e25 !important;
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        #opacitySlider {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 8px;
+            background: #ddd;  /* 트랙 색상 */
+            outline: none;
+            border-radius: 4px;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);  /* 트랙에 약간의 그림자 추가 */
+            transition: background-color 0.3s ease;
+        }
+
+        #opacitySlider:hover {
+            background: #ccc;  /* 호버 시 트랙 색상 */
+        }
+
+        #opacitySlider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 16px;
+            height: 16px;
+            background: #007BFF;  /* 썸 색상 */
+            cursor: pointer;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);  /* 썸에 그림자 추가 */
+            transition: background-color 0.3s ease;
+        }
+
+        #opacitySlider::-moz-range-thumb {
+            width: 16px;
+            height: 16px;
+            background: #007BFF;  /* 썸 색상 */
+            cursor: pointer;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);  /* 썸에 그림자 추가 */
+            transition: background-color 0.3s ease;
+        }
+
+        #opacitySlider::-webkit-slider-thumb:hover {
+            background: #0056b3;  /* 호버 시 썸 색상 */
+        }
+    </style>
+</head>
+<body>
+    <canvas id="skyCanvas"></canvas>
+
+    <button id="settingsButton" style="
+        position: absolute; 
+        top: 5px; 
+        right: 5px;
+        padding: 10px; 
+        background-color: transparent;
+        color: #a1a1a1;
+        border: none;
+        font-size: 30px; 
+        cursor: pointer; 
+        transition: background-color 0.3s ease;
+        border-radius: 50%;">
+        <i class="fas fa-cog"></i>
+    </button>
+        ⚙️
+    </button>
+
+    <div id="settingsMenu" style="
+        position: absolute; 
+        top: 50px; 
+        right: 10px; 
+        background-color: rgba(255, 255, 255, 0.95); 
+        padding: 15px; 
+        border-radius: 8px; 
+        display: none; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+        
+        <label style="display: block; margin-bottom: 10px;">
+            <input type="checkbox" id="toggleMilkyWay" /> Show Milky Way
+        </label>
+        <label style="display: block; margin-bottom: 10px;">
+            <input type="checkbox" id="toggleRaLines" /> Show RA/DEC Lines
+        </label>
+
+        <button id="exitButton" style="
+            margin-top: 20px; 
+            padding: 12px 20px; 
+            background-color: #ff4136;  /* 기본 빨간색 */
+            color: white; 
+            border: none; 
+            border-radius: 8px;  /* 사각형 모양을 위한 약간의 둥근 모서리 */
+            cursor: pointer; 
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* 버튼에 그림자 추가 */
+            transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;">
+            Exit
+        </button>
+    </div>
+
+    <!-- 검색창 및 리스트 전체 컨테이너 -->
+    <div id="searchContainer" style="
+        position: absolute; 
+        top: 60px; 
+        left: 10px; 
+        z-index: 10000; 
+        background-color: rgba(255, 255, 255, 0.95); 
+        padding: 20px;
+        border-radius: 12px;
+        width: 300px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  /* 그림자 추가 */
+        display: none;  /* 기본적으로 숨겨져 있도록 설정 */">
+
+        <div style="position: absolute; top: 18px; left: 17px;">
+            <label for="opacitySlider"></label>
+            <input type="range" id="opacitySlider" min="0.1" max="1" step="0.02" value="0.7" style="width: 
+            90px;">
+        </div>
+
+        <!-- 제목 및 닫기 버튼 -->
+        <div id="dragHandle" style="
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        cursor: move; 
+        position: relative; 
+        padding: 10px;
+        width: calc(100% - 90px);
+        border-radius: 8px;
+        margin-left: 90px;
+        margin-bottom: 10px;">
+
+            <!-- 제목 -->
+            <span style="font-size: 18px; font-weight: bold; color: #333; margin-left: 0;">
+                 
+            </span>
+
+            <!-- 닫기 버튼 -->
+            <button id="closeButton" style="
+                position: absolute; 
+                right: 10px; 
+                border: none; 
+                background-color: transparent; 
+                font-size: 20px; 
+                color: #999; 
+                cursor: pointer;
+                margin-bottom: 6px;">
+                &#10006;
+            </button>
+        </div>
+
+        <!-- 검색 입력 필드 및 버튼 -->
+        <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+            <input type="text" id="starSearch" placeholder="Search for a star" 
+                style="flex: 1; padding: 10px; font-size: 16px; border-radius: 6px; border: 1px solid #ddd; box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);">
+            <button id="searchButton" 
+                style="padding: 10px 20px; font-size: 16px; background-color: #007BFF; color: white; border: none; border-radius: 6px; cursor: pointer; transition: background-color 0.3s ease;">
+                Search
+            </button>
+        </div>
+
+        <!-- 검색된 별을 리스트로 표시 -->
+        <div id="starList" style="max-height: 150px; overflow-y: auto; background-color: #f9f9f9; padding: 10px; border-radius: 8px; border: 1px solid #ddd; box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);">
+            <!-- 별 리스트가 여기에 추가됩니다 -->
+        </div>
+
+        <!-- 제출 버튼 -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+            <button id="submitButton" 
+                style="padding: 10px 20px; font-size: 16px; background-color: #28a745; color: white; border: none; border-radius: 6px; cursor: pointer; flex: 1; transition: background-color 0.3s ease;">
+                Submit
+            </button>
+            <span id="starCount" style="margin-left: 10px; font-size: 16px; color: #333;">
+                0/5
+            </span>
+        </div>
+    </div>
+
+    <script>
+        // Function to get URL parameters
+        function getQueryParams() {
+            const params = new URLSearchParams(window.location.search);
+            return {
+                missingStars: params.get('missingStars'),
+                limitingMag: params.get('limitingMag')
+            };
+        }
+
+        // Get the query parameters and pass them to the main.js logic
+        document.addEventListener('DOMContentLoaded', () => {
+            const { missingStars, limitingMag } = getQueryParams();
+        });
+
+        exitButton.addEventListener('click', () => {
+                window.location.href = 'index.html';
+            });
+
+        document.addEventListener('keydown', (e) => {
+                if (e.key === "Enter") {
+                    if (searchContainer.style.display === 'none') {
+                        searchContainer.style.display = 'block';
+                    } else {
+                        searchContainer.style.display = 'none';
+                    }
+                }
+    });
+
+    </script>
+</body>
+</html>
