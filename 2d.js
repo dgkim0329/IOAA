@@ -5,6 +5,7 @@ let starsData = [];
 let missingStars = [];
 let missingStarCount = 0;
 let limitingMagnitude = 0;
+let isMarkingPosition = false;
 
 const path = './data/StarCatalogue.csv';
 document.addEventListener('DOMContentLoaded', async () => {
@@ -44,6 +45,30 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
 
 });
+
+document.addEventListener('DOMContentLoaded', async () => {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const body = document.body;
+
+    // Load previously saved mode or default to light mode
+    const savedMode = localStorage.getItem('darkMode');
+    if (savedMode === 'enabled') {
+        enableDarkMode();
+        darkModeToggle.checked = true;
+    } else {
+        disableDarkMode();
+    }
+
+    darkModeToggle.addEventListener('change', () => {
+        if (darkModeToggle.checked) {
+            enableDarkMode();
+        } else {
+            disableDarkMode();
+        }
+    });
+
+});
+
 
 async function loadSky(missingStarCount, limitingMagnitude) {
     try {
@@ -145,19 +170,24 @@ function plotSky(stars) {
     const canvas = document.getElementById("skyCanvas");
     const ctx = canvas.getContext("2d");
 
+    const isDarkMode = document.body.classList.contains('dark-mode');
+
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-    ctx.fillStyle = "black";
+
+    // Set background color based on mode
+    ctx.fillStyle = isDarkMode ? "black" : "white";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     // Draw circle for the sky view boundary
-    const centerX = canvas.width / 3;
+    const centerX = canvas.width * 0.3;
     const centerY = canvas.height * 50.2 / 100;
     const radius = Math.min(centerX, centerY, canvas.height - centerY) - 10;
+
     ctx.beginPath();
     ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI);
-    ctx.strokeStyle = "white";
-    ctx.lisidth = 2;
+    ctx.strokeStyle = isDarkMode ? "white" : "black";
+    ctx.lineWidth = 2;
     ctx.stroke();
 
     // Draw the stars
@@ -168,11 +198,38 @@ function plotSky(stars) {
             const size = Math.min(8, 8 * Math.pow(10, -0.22 * star.mag));
             ctx.beginPath();
             ctx.arc(x, y, size, 0, 2 * Math.PI);
-            ctx.fillStyle = "white";
+            ctx.fillStyle = isDarkMode ? "white" : "black";
             ctx.fill();
         }
     });
+
+    searchedStars.forEach(star => {
+        if (star.circle) {
+            drawCircleOnCanvas(star.circle.x, star.circle.y, star);
+        }
+    });
+
 }
+
+// Adjust the plot when the mode changes
+function enableDarkMode() {
+    document.body.classList.add('dark-mode');
+    localStorage.setItem('darkMode', 'enabled');
+    document.getElementById('settingsMenu').style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+    document.getElementById('searchContainer').style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+    document.getElementById('starList').style.backgroundColor = '#333';
+    plotSky(stars); // Re-plot stars in dark mode
+}
+
+function disableDarkMode() {
+    document.body.classList.remove('dark-mode');
+    localStorage.setItem('darkMode', 'disabled');
+    document.getElementById('settingsMenu').style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+    document.getElementById('searchContainer').style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+    document.getElementById('starList').style.backgroundColor = '#f9f9f9';
+    plotSky(stars); // Re-plot stars in light mode
+}
+
 
 // Handle window resize
 window.addEventListener('resize', () => {
@@ -237,6 +294,14 @@ function displaySearchResults(matchingStars) {
 
 // Function to select a star and add it to the searchedStars list
 function selectStar(star) {
+
+    const isDuplicate = searchedStars.some(selectedStar => selectedStar.name === star.name);
+
+    if (isDuplicate) {
+        alert("This star has already been added. Please select a different star.");
+        return; // Stop the function if it's a duplicate
+    }
+
     if (searchedStars.length < missingStarCount) {
         searchedStars.push(star);
         updateStarList();  // Update the main selected stars list
@@ -245,7 +310,6 @@ function selectStar(star) {
     }
 }
 
-// Function to update the main selected star list on the screen
 function updateStarList() {
     const starListDiv = document.getElementById('starList');
     starListDiv.innerHTML = "";  // Reset the list
@@ -262,36 +326,102 @@ function updateStarList() {
         starInfo.textContent = `${index + 1}. ${getStarDisplayName(star)}`;
         starItem.appendChild(starInfo);
         
+        // Create the Mark button
+        const markButton = document.createElement('button');
+        markButton.textContent = star.marked ? "Edit" : "Mark";
+        markButton.style.backgroundColor = "#28a745";
+        markButton.style.color = "white";
+        markButton.style.border = "none";
+        markButton.style.borderRadius = "4px";
+        markButton.style.cursor = "pointer";
+        markButton.style.padding = "5px 10px";
+        
+        // Event listener for the Mark button
+        markButton.addEventListener('click', () => {
+            isMarkingPosition = true;
+            const canvas = document.getElementById("skyCanvas");
+            toggleMarkingMode(true);
+
+            if (star.marked) {
+                star.circle = null;
+                plotSky(stars);
+            }
+
+            markButton.textContent = 'Click to Place';
+            if (isMarkingPosition) {
+                canvas.style.cursor = 'none'; // Hide the cursor
+            } else {
+                canvas.style.cursor = 'default'; // Show the default cursor
+            }
+
+            const handleClick = (event) => {
+                if (isMarkingPosition) {
+                    const rect = canvas.getBoundingClientRect();
+                    const x = event.clientX - rect.left;
+                    const y = event.clientY - rect.top;
+
+                    // Draw the circle and store its position
+                    drawCircleOnCanvas(x, y, star);
+
+                    // Mark the star as marked and update the button text
+                    star.marked = true;
+                    markButton.textContent = 'Edit';
+                    canvas.style.cursor = 'default';
+
+                    // Remove event listener after placing the mark
+                    canvas.removeEventListener('click', handleClick);
+                    isMarkingPosition = false;
+                    plotSky(stars); // Re-plot to include the new circle
+                    toggleMarkingMode(false);
+                }
+            };
+
+            // Add click listener to canvas for placing the mark
+            canvas.addEventListener('click', handleClick);
+        });
+
+        // Create the Remove button
         const removeButton = document.createElement('button');
-        removeButton.innerHTML = "&#10006;";  // Unicode for a cross symbol (X)
-        removeButton.style.backgroundColor = "transparent";  // No background
-        removeButton.style.color = "#FF4136";  // Red X color
-        removeButton.style.border = "none";  // No border
+        removeButton.innerHTML = "&#10006;";
+        removeButton.style.backgroundColor = "transparent";
+        removeButton.style.color = "#FF4136";
+        removeButton.style.border = "none";
         removeButton.style.cursor = "pointer";
-        removeButton.style.fontSize = "20px";  // Larger X symbol
-        removeButton.style.padding = "0";  // Remove padding to make it compact
-        removeButton.style.margin = "0";  // Remove margin for cleaner look
-        removeButton.style.transition = "color 0.3s ease";  // Smooth color transition
+        removeButton.style.fontSize = "20px";
+        removeButton.style.padding = "0";
+        removeButton.style.margin = "0";
+        removeButton.style.transition = "color 0.3s ease";
 
         removeButton.addEventListener('mouseover', () => {
-            removeButton.style.color = "#d32f2f";  // Darker red on hover
+            removeButton.style.color = "#d32f2f";
         });
         removeButton.addEventListener('mouseout', () => {
-            removeButton.style.color = "#FF4136";  // Original red color
+            removeButton.style.color = "#FF4136";
         });
 
-        removeButton.addEventListener('click', () => removeStar(index));  // Click event to remove the star
+        removeButton.addEventListener('click', () => removeStar(index));
+
+        // Append both buttons to the star item
+        starItem.appendChild(markButton);
         starItem.appendChild(removeButton);
-        
+
         starListDiv.appendChild(starItem);
     });
 
     updateStarCount();
 }
 
+
 function removeStar(index) {
-    searchedStars.splice(index, 1);  // Remove the star at the given index
-    updateStarList();  // Update the star list display
+    const star = searchedStars[index];
+    
+    star.circle = null;
+    star.marked = false;
+
+    searchedStars.splice(index, 1);
+
+    updateStarList();
+    plotSky(stars);
 }
 
 function updateStarCount() {
@@ -335,4 +465,68 @@ document.getElementById('searchButton').addEventListener('click', () => {
     }
 });
 
+// Function to enable or disable the overlay and buttons during marking mode
+function toggleMarkingMode(state) {
+    const overlay = document.getElementById('overlay');
+    const canvas = document.getElementById('skyCanvas');
+    const buttons = document.querySelectorAll('#starList button');
+
+    if (state) {
+        overlay.style.display = 'block'; // Show the overlay
+        canvas.style.cursor = 'none'; // Hide the cursor for marking mode
+        buttons.forEach(button => button.disabled = true); // Disable other buttons
+    } else {
+        overlay.style.display = 'none'; // Hide the overlay
+        canvas.style.cursor = 'default'; // Show the default cursor
+        buttons.forEach(button => button.disabled = false); // Enable other buttons
+    }
+}
+
+
 document.getElementById('submitButton').addEventListener('click', submitSelectedStars);
+
+// Function to draw a circle and store its position
+function drawCircleOnCanvas(x, y, star) {
+    const canvas = document.getElementById("skyCanvas");
+    const ctx = canvas.getContext("2d");
+
+    ctx.beginPath();
+    ctx.arc(x, y, 3, 0, 2 * Math.PI);
+    ctx.fillStyle = 'red';
+    ctx.fill();
+
+    // Store the circle's position on the star object
+    star.circle = { x, y, radius: 3 }; // Save x, y, and radius
+}
+
+// Show star info when hovering near a marked circle
+document.getElementById("skyCanvas").addEventListener('mousemove', (event) => {
+    const canvas = document.getElementById("skyCanvas");
+    const rect = canvas.getBoundingClientRect();
+    const x = event.clientX - rect.left;
+    const y = event.clientY - rect.top;
+
+    plotSky(stars); // Re-plot the sky view and stars
+
+    const ctx = canvas.getContext("2d");
+
+    if (isMarkingPosition) {
+        ctx.beginPath();
+        ctx.arc(x, y, 3, 0, 2 * Math.PI); // Small circle as cursor
+        ctx.fillStyle = 'red';
+        ctx.fill();
+    }
+
+    // Iterate over stars to check if the mouse is near any marked circle
+    searchedStars.forEach(star => {
+        if (star.circle) {
+            const distance = Math.sqrt(Math.pow(star.circle.x - x, 2) + Math.pow(star.circle.y - y, 2));
+            if (distance < star.circle.radius + 5) {
+                // If the mouse is close to the circle, display the star's name
+                ctx.fillStyle = 'red';
+                ctx.font = '14px Arial';
+                ctx.fillText(`${getStarDisplayName(star)}`, star.circle.x + 10, star.circle.y - 10);
+            }
+        }
+    });
+});
