@@ -13,6 +13,7 @@ html, body {
     left: 0;
     width: 100vw;
     height: 100vh;
+    cursor: default;
 }
 
 #settingsButton:hover i {
@@ -65,3 +66,60 @@ html, body {
 #opacitySlider::-webkit-slider-thumb:hover {
     background: #0056b3;  /* 호버 시 썸 색상 */
 }
+
+/* 다크모드 스타일 */
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode h2 {
+    color: #ffffff !important;
+}
+
+body.dark-mode #settingsButton {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+body.dark-mode #exitButton {
+    background-color: #ff4136;
+    color: #fff;
+    border: 1px solid #ff4136;
+    transition: transform 0.2s ease
+}
+
+body.dark-mode #exitButton:hover {
+    background-color: #d32f2f;
+}
+
+body.dark-mode input[type="text"] {
+    background-color: #333;
+    color: #ddd;
+    border: 1px solid #555;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode input[type="checkbox"] {
+    accent-color: #919090;
+}
+
+body.dark-mode #starList {
+    background-color: #222;
+    color: #eaeaea;
+}
+
+body.dark-mode button {
+    background-color: #444;
+    color: #ddd;
+    border: 1px solid #555;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
