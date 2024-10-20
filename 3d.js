@@ -145,7 +145,7 @@ function startVisualization(missingStarCount, limitingMagnitude) {
             removeButton.style.fontSize = "20px";  // Larger X symbol
             removeButton.style.padding = "0";  // Remove padding to make it compact
             removeButton.style.margin = "0";  // Remove margin for cleaner look
-            removeButton.style.transition = "color 0.3s ease";  // Smooth color transition
+            removeButton.style.transition = "color 0.1s ease";  // Smooth color transition
 
             removeButton.addEventListener('mouseover', () => {
                 removeButton.style.color = "#d32f2f";  // Darker red on hover
@@ -162,6 +162,14 @@ function startVisualization(missingStarCount, limitingMagnitude) {
 
         updateStarCount();
     }
+
+    const searchInput = document.getElementById('starSearch');
+    const starListDiv = document.getElementById('starList');
+
+    searchInput.addEventListener('focus', () => {
+        starListDiv.innerHTML = '';
+        updateStarList();
+    });
 
     function updateStarCount() {
         const starCountElement = document.getElementById('starCount');
@@ -418,7 +426,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const settingsMenu = document.getElementById('settingsMenu');
     const toggleMilkyWay = document.getElementById('toggleMilkyWay');
     const toggleRaLines = document.getElementById('toggleRaLines');
-    const toggleDecLines = document.getElementById('toggleDecLines');
 
     settingsButton.addEventListener('click', () => {
         settingsMenu.style.display = settingsMenu.style.display === 'none' ? 'block' : 'none';
