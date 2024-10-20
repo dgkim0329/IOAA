@@ -37,14 +37,39 @@
             color: white;
             border: none;
             border-radius: 5px;
+            margin-bottom: 10px;
         }
         #controls button:hover {
             background-color: #0056b3;
+        }
+        #modeSwitch {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        #modeSwitch button {
+            font-size: 1em;
+            padding: 10px;
+            margin: 0 5px;
+            cursor: pointer;
+            background-color: #e0e0e0;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.1s ease;
+        }
+        #modeSwitch button.active {
+            background-color: #007BFF;
+            color: white;
         }
     </style>
 </head>
 <body>
     <div id="controls">
+        <div id="modeSwitch">
+            <button id="mode3D" class="active">3D Mode</button>
+            <button id="mode2D">2D Mode</button>
+        </div>
+
         <label for="missingStarCount">Number of Missing Stars: <span id="missingStarCountLabel">5</span></label>
         <input type="range" id="missingStarCount" min="3" max="7" value="5">
 
@@ -61,7 +86,11 @@
             const missingStarCountSlider = document.getElementById('missingStarCount');
             const limitingMagnitudeSlider = document.getElementById('limitingMagnitude');
             const startButton = document.getElementById('startButton');
-            
+            const mode3DButton = document.getElementById('mode3D');
+            const mode2DButton = document.getElementById('mode2D');
+
+            let mode = '3D';  // 기본 모드를 3D로 설정
+
             // Update labels when sliders change
             missingStarCountSlider.addEventListener('input', () => {
                 missingStarCountLabel.textContent = missingStarCountSlider.value;
@@ -69,14 +98,31 @@
             limitingMagnitudeSlider.addEventListener('input', () => {
                 limitingMagnitudeLabel.textContent = limitingMagnitudeSlider.value;
             });
-            
-            // On button click, redirect to missingstars.html with query parameters
+
+            // Toggle between 3D and 2D modes
+            mode3DButton.addEventListener('click', () => {
+                mode = '3D';
+                mode3DButton.classList.add('active');
+                mode2DButton.classList.remove('active');
+            });
+
+            mode2DButton.addEventListener('click', () => {
+                mode = '2D';
+                mode2DButton.classList.add('active');
+                mode3DButton.classList.remove('active');
+            });
+
+            // On button click, redirect to the appropriate page with query parameters
             startButton.addEventListener('click', () => {
                 const missingStarCount = missingStarCountSlider.value;
                 const limitingMagnitude = limitingMagnitudeSlider.value;
 
-                // Redirect with parameters in the URL
-                window.location.href = `missingstars.html?missingStars=${missingStarCount}&limitingMag=${limitingMagnitude}`;
+                // Redirect based on the selected mode
+                if (mode === '3D') {
+                    window.location.href = `3D.html?missingStars=${missingStarCount}&limitingMag=${limitingMagnitude}`;
+                } else {
+                    window.location.href = `2D.html?missingStars=${missingStarCount}&limitingMag=${limitingMagnitude}`;
+                }
             });
         });
     </script>
