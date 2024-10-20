@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2D Star Map</title>
     <script src="https://d3js.org/d3.v7.min.js" defer></script>
-    <script type="module" src="./2d.js" defer></script>
+    <script type="module" src="./2D.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -31,7 +31,7 @@
         position: absolute; 
         top: 50px; 
         right: 10px; 
-        z-index: 1000;
+        z-index: 200;
         background-color: rgba(255, 255, 255, 0.95); 
         padding: 15px; 
         border-radius: 8px; 
@@ -39,7 +39,7 @@
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
         
         <label style="display: block; margin-bottom: 10px;">
-            <input type="checkbox" id="toggleRaLines" /> Show RA/DEC Lines
+            <input type="checkbox" id="darkModeToggle" /> Dark Mode
         </label>
 
         <button id="exitButton" style="
@@ -52,8 +52,7 @@
             cursor: pointer; 
             font-size: 16px;
             font-weight: bold;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
-            transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;">
+            transition: transform 0.2s ease;">
             Exit
         </button>
     </div>
@@ -101,6 +100,18 @@
             </span>
         </div>
     </div>
+
+    <div id="overlay" style="
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none; /* Initially hidden */
+        z-index: 999;
+        "></div>
+
 
     <script>
         function getQueryParams() {
