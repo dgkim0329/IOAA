@@ -110,7 +110,100 @@
         background-color: rgba(0, 0, 0, 0.5);
         display: none; /* Initially hidden */
         z-index: 999;
-        "></div>
+        ">
+    </div>
+
+    <div id="resultModal" style="
+        position: fixed; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        background-color: white; 
+        padding: 20px 30px; 
+        border-radius: 12px; 
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+        display: none; 
+        z-index: 1000; 
+        max-width: 400px; 
+        text-align: center; 
+        font-family: 'Arial', sans-serif;">
+        <h2 style="font-size: 24px; color: #333; margin-bottom: 15px;">Results</h2>
+        <p id="resultMessage" style="font-size: 18px; color: #555; margin-bottom: 10px;"></p>
+        <ul id="resultDetails" style="
+            list-style: none; 
+            padding: 0; 
+            margin: 15px 0; 
+            max-height: 200px; 
+            overflow-y: auto;
+            text-align: left;">
+        </ul>
+        <div style="display: flex; justify-content: space-between; gap: 10px; margin-top: 10px;">
+            <button id="exitButton" style="
+                padding: 10px 20px; 
+                font-size: 16px; 
+                background-color: #FF4136; 
+                color: white; 
+                border: none; 
+                border-radius: 6px; 
+                cursor: pointer; 
+                flex: 1;">
+                Exit
+            </button>
+            <button id="retryButton" style="
+                padding: 10px 20px; 
+                font-size: 16px; 
+                background-color: #007BFF; 
+                color: white; 
+                border: none; 
+                border-radius: 6px; 
+                cursor: pointer; 
+                flex: 1;">
+                Retry
+            </button>
+        </div>
+    </div>
+
+
+    <div id="confirmationModal" style="
+        position: fixed; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        background-color: white; 
+        padding: 20px 30px; 
+        border-radius: 12px; 
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+        display: none; 
+        z-index: 1000; 
+        max-width: 400px; 
+        text-align: center; 
+        font-family: 'Arial', sans-serif;">
+        <h2 style="font-size: 20px; color: #333; margin-bottom: 15px;">Confirm Submission</h2>
+        <p style="font-size: 16px; color: #555; margin-bottom: 20px;">
+            Are you sure you want to submit your selected stars?
+        </p>
+        <button id="confirmSubmitButton" style="
+            padding: 10px 20px; 
+            font-size: 16px; 
+            background-color: #28a745; 
+            color: white; 
+            border: none; 
+            border-radius: 6px; 
+            cursor: pointer; 
+            margin-right: 10px;">
+            Confirm
+        </button>
+        <button id="cancelSubmitButton" style="
+            padding: 10px 20px; 
+            font-size: 16px; 
+            background-color: #FF4136; 
+            color: white; 
+            border: none; 
+            border-radius: 6px; 
+            cursor: pointer;">
+            Cancel
+        </button>
+    </div>
 
 
     <script>
