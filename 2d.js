@@ -7,6 +7,10 @@ let missingStarCount = 0;
 let limitingMagnitude = 0;
 let isMarkingPosition = false;
 
+let lat = 0;
+let sid = 0;
+let off = 0;
+
 const path = './data/StarCatalogue.csv';
 document.addEventListener('DOMContentLoaded', async () => {
     const params = new URLSearchParams(window.location.search);
@@ -38,7 +42,28 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     });
 
-    document.getElementById('submitButton').addEventListener('click', submitSelectedStars);
+    document.getElementById('submitButton').addEventListener('click', () => {
+        // Show the confirmation modal when the submit button is clicked
+        const confirmationModal = document.getElementById('confirmationModal');
+        confirmationModal.style.display = 'block';
+    });
+    
+    // Handle confirmation of submission
+    document.getElementById('confirmSubmitButton').addEventListener('click', () => {
+        // Proceed with submission
+        submitSelectedStars();
+        // Hide the confirmation modal after confirming
+        const confirmationModal = document.getElementById('confirmationModal');
+        confirmationModal.style.display = 'none';
+    });
+    
+    // Handle cancellation of submission
+    document.getElementById('cancelSubmitButton').addEventListener('click', () => {
+        // Hide the confirmation modal if the user cancels
+        const confirmationModal = document.getElementById('confirmationModal');
+        confirmationModal.style.display = 'none';
+    });
+    
 
     settingsButton.addEventListener('click', () => {
         settingsMenu.style.display = settingsMenu.style.display === 'none' ? 'block' : 'none';
@@ -83,9 +108,9 @@ async function loadSky(missingStarCount, limitingMagnitude) {
             name: d.name
         }));
 
-        const lat = Math.random() * 180 - 90;
-        const sid = Math.random() * 360;
-        const off = Math.random() * 360;
+        lat = Math.random() * 180 - 90;
+        sid = Math.random() * 360;
+        off = Math.random() * 360;
         sList(lat, sid, off, starEq, missingStarCount, limitingMagnitude);
 
     } catch (error) {
@@ -124,7 +149,6 @@ function sList(lat, siderealTime, off, starEq, missingStarCount, limitingMagnitu
         if (altitude >= 5) {
             starsAboveFiveDegrees.push(star);
         }
-
     });
 
     const brightStarsToRemove = starsAboveFiveDegrees.filter(star => star.mag <= limitingMagnitude);
@@ -132,13 +156,16 @@ function sList(lat, siderealTime, off, starEq, missingStarCount, limitingMagnitu
     for (let i = 0; i < missingStarCount && brightStarsToRemove.length > 0; i++) {
         const randomIndex = Math.floor(Math.random() * brightStarsToRemove.length);
         const removedStar = brightStarsToRemove.splice(randomIndex, 1)[0];
-        missingStars.push(removedStar);
+
+        // Store the RA and Dec of the missing star
+        missingStars.push({ ra: removedStar.ra, dec: removedStar.dec, name: removedStar.name });
     }
 
-    console.log("Removed stars:", missingStars);
+    console.log(missingStars);
 
+    // Plot the remaining stars
     starsAboveHorizon.forEach(star => {
-        if (!missingStars.includes(star)) {
+        if (!missingStars.some(missingStar => missingStar.name === star.name)) {
             let h = 15 * deg2rad(star.ra) - sd;
             let d = deg2rad(star.dec);
             let phi = deg2rad(lat);
@@ -164,6 +191,7 @@ function sList(lat, siderealTime, off, starEq, missingStarCount, limitingMagnitu
         }
     });
 }
+
 
 
 function plotSky(stars) {
@@ -335,6 +363,7 @@ function updateStarList() {
         markButton.style.borderRadius = "4px";
         markButton.style.cursor = "pointer";
         markButton.style.padding = "5px 10px";
+        markButton.style.marginLeft = "auto";
         
         // Event listener for the Mark button
         markButton.addEventListener('click', () => {
@@ -432,20 +461,193 @@ function updateStarCount() {
 // Function to submit the selected stars and check if they are correct
 function submitSelectedStars() {
     if (searchedStars.length !== missingStarCount) {
-        alert(`Please select exactly ${missingStarCount} stars.`);
+        showResultModal(`Please select exactly ${missingStarCount} stars.`, []);
         return;
     }
 
     let correctCount = 0;
-    searchedStars.forEach(searchedStar => {
-        const isMissing = missingStars.some(missingStar => missingStar.name === searchedStar.name);
-        if (isMissing) {
+    const resultDetails = searchedStars.map(searchedStar => {
+        const missingStar = missingStars.find(ms => ms.name === searchedStar.name);
+
+        let angularDistance = null;
+        let distanceCategory = "N/A";
+        if (missingStar && searchedStar.circle) {
+            // Convert the x, y of the circle to altitude and azimuth for the marked star
+            const { alt: markedAlt, az: markedAz } = convertXYToAltAz(
+                searchedStar.circle.x,
+                searchedStar.circle.y
+            );
+
+            // Convert the x, y of the missing star to altitude and azimuth
+            const { alt: missingAlt, az: missingAz } = calculateAltAz(
+                missingStar.ra,
+                missingStar.dec
+            );
+
+            // Calculate the angular distance between the marked and missing positions
+            angularDistance = calculateAngularDistance(markedAlt, markedAz, missingAlt, missingAz);
+
+            // Classify the distance into categories
+            if (angularDistance < 1) {
+                distanceCategory = "Very Close (< 1°)";
+            } else if (angularDistance < 2.5) {
+                distanceCategory = "Close (1° - 2.5°)";
+            } else if (angularDistance < 5) {
+                distanceCategory = "Moderate (2.5° - 5°)";
+            } else {
+                distanceCategory = "Far (> 5°)";
+            }
+
             correctCount++;
         }
+
+        return {
+            name: getStarDisplayName(searchedStar),
+            status: missingStar ? 'correct' : 'incorrect',
+            distance: distanceCategory
+        };
     });
 
-    alert(`You got ${correctCount} out of ${missingStarCount} correct.`);
+    showResultModal(`You got ${correctCount} out of ${missingStarCount} correct.`, resultDetails);
 }
+
+function calculateAltAz(ra, dec) {
+    const raRad = 15 * deg2rad(ra); // Right Ascension in radians (multiply by 15 to convert hours to degrees)
+    const decRad = deg2rad(dec); // Declination in radians
+    const observerLat = deg2rad(lat); // Observer's latitude in radians
+
+    const hourAngle = deg2rad(sid) - raRad; // Sidereal time minus RA gives the hour angle
+
+    // Calculate the altitude
+    const sinAlt = Math.sin(decRad) * Math.sin(observerLat) + Math.cos(decRad) * Math.cos(observerLat) * Math.cos(hourAngle);
+    const alt = Math.asin(sinAlt) * (180 / Math.PI);
+
+    // Calculate sinAz and cosAz for the azimuth
+    const cosAz = (Math.sin(decRad) - Math.sin(deg2rad(alt)) * Math.sin(observerLat)) / (Math.cos(deg2rad(alt)) * Math.cos(observerLat));
+    const sinAz = -Math.cos(decRad) * Math.sin(hourAngle) / Math.cos(deg2rad(alt));
+
+    // Use atan2 to determine the azimuth, adjusted for the offset
+    let az = off - Math.atan2(sinAz, cosAz) * (180 / Math.PI);
+
+    // Adjust azimuth to the range [0, 360)
+    az = (az + 360) % 360;
+
+    return { alt: alt, az: az };
+}
+
+
+
+function convertXYToAltAz(x, y) {
+    const canvas = document.getElementById("skyCanvas");
+    const centerX = canvas.width * 0.3;
+    const centerY = canvas.height * 50.2 / 100;
+    const radius = Math.min(centerX, centerY, canvas.height - centerY) - 10;
+
+    // Convert x, y to normalized coordinates (-1 to 1)
+    const normalizedX = (x - centerX) / radius;
+    const normalizedY = (y - centerY) / radius; // Invert Y to match celestial coordinates
+
+    // Calculate azimuth and altitude based on normalized coordinates
+    const azimuth = Math.atan2(-normalizedX, normalizedY) * (180 / Math.PI);
+    const altitude = 90 * (1 - (Math.sqrt(normalizedX * normalizedX + normalizedY * normalizedY)))
+
+
+    return { alt: altitude, az: (azimuth + 360) % 360 };
+}
+
+function calculateAngularDistance(alt1, az1, alt2, az2) {
+
+    // Convert angles to radians for calculation
+    const alt1Rad = deg2rad(alt1);
+    const az1Rad = deg2rad(az1);
+    const alt2Rad = deg2rad(alt2);
+    const az2Rad = deg2rad(az2);
+
+    // Calculate the angular distance
+    const cosTheta = Math.sin(alt1Rad) * Math.sin(alt2Rad) + Math.cos(alt1Rad) * Math.cos(alt2Rad) * Math.cos(az1Rad - az2Rad);
+    return Math.acos(Math.max(-1, Math.min(1, cosTheta))) * (180 / Math.PI); // Convert radians to degrees
+}
+
+function showResultModal(message, details) {
+    const resultModal = document.getElementById('resultModal');
+    const isDarkMode = document.body.classList.contains('dark-mode');
+
+    // Apply dark mode styles
+    resultModal.style.backgroundColor = isDarkMode ? '#333' : 'white';
+    resultModal.style.color = isDarkMode ? '#f9f9f9' : '#333';
+    resultModal.style.boxShadow = isDarkMode ? '0 6px 15px rgba(0, 0, 0, 0.7)' : '0 6px 15px rgba(0, 0, 0, 0.3)';
+
+    // Populate the result details
+    const resultMessage = document.getElementById('resultMessage');
+    const resultDetailsList = document.getElementById('resultDetails');
+    resultMessage.textContent = message;
+    resultDetailsList.innerHTML = '';
+
+    details.forEach(detail => {
+        const listItem = document.createElement('li');
+        listItem.style.display = 'flex';
+        listItem.style.alignItems = 'center';
+        listItem.style.marginBottom = '8px';
+        listItem.style.gap = '15px';
+
+        const icon = document.createElement('i');
+        icon.style.marginRight = '10px';
+        if (detail.status === 'correct') {
+            icon.className = 'fas fa-check-circle';
+            icon.style.color = '#28a745';
+        } else {
+            icon.className = 'fas fa-times-circle';
+            icon.style.color = '#FF4136';
+        }
+
+        const starInfo = document.createElement('span');
+        starInfo.textContent = detail.name;
+        starInfo.style.flex = '1';
+        starInfo.style.marginRight = '20px';
+
+        const distanceInfo = document.createElement('span');
+        distanceInfo.textContent = detail.distance;
+        distanceInfo.style.fontSize = '16px';
+        distanceInfo.style.textAlign = 'right';
+        distanceInfo.style.minWidth = '100px';
+        distanceInfo.style.color = getDistanceColor(detail.distance);
+
+        listItem.appendChild(icon);
+        listItem.appendChild(starInfo);
+        listItem.appendChild(distanceInfo);
+        resultDetailsList.appendChild(listItem);
+    });
+
+    resultModal.style.display = 'block';
+}
+
+
+function getDistanceColor(distance) {
+    switch (distance) {
+        case "Very Close (< 1°)":
+            return '#28a745'; // Green
+        case "Close (1° - 2.5°)":
+            return '#007BFF'; // Blue
+        case "Moderate (2.5° - 5°)":
+            return '#FF851B'; // Orange
+        case "Far (> 5°)":
+            return '#FF4136'; // Red
+        default:
+            return '#999'; // Grey for 'N/A'
+    }
+}
+
+document.getElementById('exitButton').addEventListener('click', () => {
+    // Redirect to index.html
+    window.location.href = 'index.html';
+});
+
+document.getElementById('retryButton').addEventListener('click', () => {
+    // Simply close the results modal without resetting anything
+    const resultModal = document.getElementById('resultModal');
+    resultModal.style.display = 'none';
+});
+
 
 function getStarDisplayName(starData) {
     if (starData.proper) {
@@ -482,9 +684,6 @@ function toggleMarkingMode(state) {
     }
 }
 
-
-document.getElementById('submitButton').addEventListener('click', submitSelectedStars);
-
 // Function to draw a circle and store its position
 function drawCircleOnCanvas(x, y, star) {
     const canvas = document.getElementById("skyCanvas");
@@ -498,6 +697,21 @@ function drawCircleOnCanvas(x, y, star) {
     // Store the circle's position on the star object
     star.circle = { x, y, radius: 3 }; // Save x, y, and radius
 }
+
+function showConfirmationModal() {
+    const confirmationModal = document.getElementById('confirmationModal');
+    const isDarkMode = document.body.classList.contains('dark-mode');
+
+    // Apply dark mode styles to the confirmation modal
+    confirmationModal.style.backgroundColor = isDarkMode ? '#333' : 'white';
+    confirmationModal.style.color = isDarkMode ? '#f9f9f9' : '#333';
+    confirmationModal.style.boxShadow = isDarkMode ? '0 6px 15px rgba(0, 0, 0, 0.7)' : '0 6px 15px rgba(0, 0, 0, 0.3)';
+
+    confirmationModal.style.display = 'block';
+}
+
+document.getElementById('submitButton').addEventListener('click', showConfirmationModal);
+
 
 // Show star info when hovering near a marked circle
 document.getElementById("skyCanvas").addEventListener('mousemove', (event) => {
