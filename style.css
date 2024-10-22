@@ -67,6 +67,24 @@ html, body {
     background: #0056b3;  /* 호버 시 썸 색상 */
 }
 
+#retryButton:hover {
+    background-color: #0056b3 !important; /* A darker shade for the hover effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark mode styling for the retry button */
+body.dark-mode #retryButton {
+    background-color: #007BFF; /* Same initial color as in light mode */
+    color: #fff;
+    border: 1px solid #007BFF;
+    transition: transform 0.2s ease;
+}
+
+body.dark-mode #retryButton:hover {
+    background-color: #0056b3; /* Darker shade when hovered */
+}
+
+
 /* 다크모드 스타일 */
 
 body.dark-mode {
