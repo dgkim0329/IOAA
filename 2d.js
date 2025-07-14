@@ -108,7 +108,7 @@ async function loadSky(missingStarCount, limitingMagnitude) {
             name: d.name
         }));
 
-        lat = Math.random() * 180 - 90;
+        lat = 38;
         sid = Math.random() * 360;
         off = Math.random() * 360;
         sList(lat, sid, off, starEq, missingStarCount, limitingMagnitude);
