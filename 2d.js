@@ -162,7 +162,6 @@ function sList(lat, siderealTime, off, starEq, missingStarCount, limitingMagnitu
     }
 
     console.log(missingStars);
-    console.log(fixed);
 
     // Plot the remaining stars
     starsAboveHorizon.forEach(star => {
