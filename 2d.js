@@ -151,7 +151,7 @@ function sList(lat, siderealTime, off, starEq, missingStarCount, limitingMagnitu
         }
     });
 
-    const brightStarsToRemove = starsAboveFiveDegrees.filter(star => star.mag < 1.3);
+    const brightStarsToRemove = starsAboveFiveDegrees.filter(star => star.mag < limitingMagnitude);
 
     for (let i = 0; i < missingStarCount && brightStarsToRemove.length > 0; i++) {
         const randomIndex = Math.floor(Math.random() * brightStarsToRemove.length);
