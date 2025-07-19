@@ -637,7 +637,7 @@ function getDistanceColor(distance) {
     }
 }
 
-document.getElementById('exitButton').addEventListener('click', () => {
+document.getElementById('exitbutton').addEventListener('click', () => {
     // Redirect to index.html
     window.location.href = 'index.html';
 });
